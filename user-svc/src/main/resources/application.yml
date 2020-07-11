@@ -1,0 +1,13 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: user-svc
+  sleuth:
+    sampler:
+      probability: 1.0
+    enabled: true
+  zipkin:
+    base-url: http://15.164.232.190:9411/
+    enabled: true

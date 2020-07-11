@@ -1,0 +1,521 @@
+[INFO ] 2020-07-11 01:46:11.302 [Test worker] SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.cafesvc.CafeSvcApplicationTests], using SpringBootContextLoader
+[INFO ] 2020-07-11 01:46:11.313 [Test worker] AbstractContextLoader - Could not detect default resource locations for test class [com.example.cafesvc.CafeSvcApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 2020-07-11 01:46:11.315 [Test worker] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.cafesvc.CafeSvcApplicationTests]: CafeSvcApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2020-07-11 01:46:11.454 [Test worker] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.cafesvc.CafeSvcApplication for test class com.example.cafesvc.CafeSvcApplicationTests
+[INFO ] 2020-07-11 01:46:11.591 [Test worker] SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[INFO ] 2020-07-11 01:46:11.605 [Test worker] SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2051525d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4cd881, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1bc07a42, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4058732a, org.springframework.test.context.event.EventPublishingTestExecutionListener@6ab112c6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@cdf57c1, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@14d52e72, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1717cee1, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7552c9e7, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3c5f9d3, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3edef167]
+[INFO ] 2020-07-11 01:46:12.982 [Test worker] CafeSvcApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2020-07-11 01:46:13.980 [Test worker] GenericScope - BeanFactory id=4e91577d-24a4-3062-bc61-c765d15f46b2
+[WARN ] 2020-07-11 01:46:17.067 [Test worker] ZipkinAutoConfiguration - Check result of the [org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@4081e8f2] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://15.164.232.190:9411/api/v2/spans": connect timed out; nested exception is java.net.SocketTimeoutException: connect timed out}]
+[INFO ] 2020-07-11 01:46:17.494 [Test worker] CafeSvcApplicationTests - Started CafeSvcApplicationTests in 5.827 seconds (JVM running for 8.529)
+[INFO ] 2020-07-11 01:55:48.686 [Test worker] SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.cafesvc.CafeSvcApplicationTests], using SpringBootContextLoader
+[INFO ] 2020-07-11 01:55:48.700 [Test worker] AbstractContextLoader - Could not detect default resource locations for test class [com.example.cafesvc.CafeSvcApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 2020-07-11 01:55:48.711 [Test worker] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.cafesvc.CafeSvcApplicationTests]: CafeSvcApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2020-07-11 01:55:48.837 [Test worker] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.cafesvc.CafeSvcApplication for test class com.example.cafesvc.CafeSvcApplicationTests
+[INFO ] 2020-07-11 01:55:48.957 [Test worker] SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[INFO ] 2020-07-11 01:55:48.972 [Test worker] SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@ada9de5, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1e18ea1a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7e54c7c8, org.springframework.test.context.support.DirtiesContextTestExecutionListener@30aa097e, org.springframework.test.context.event.EventPublishingTestExecutionListener@6ec18f3b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3750f0c3, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6f620b66, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@fe30e0d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6d39f09d, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5ddfd311, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2219caf7]
+[INFO ] 2020-07-11 01:55:50.443 [Test worker] CafeSvcApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2020-07-11 01:55:51.240 [Test worker] GenericScope - BeanFactory id=4e91577d-24a4-3062-bc61-c765d15f46b2
+[WARN ] 2020-07-11 01:55:54.221 [Test worker] ZipkinAutoConfiguration - Check result of the [org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@412690ee] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://3.34.178.19:9411/api/v2/spans": connect timed out; nested exception is java.net.SocketTimeoutException: connect timed out}]
+[INFO ] 2020-07-11 01:55:54.604 [Test worker] CafeSvcApplicationTests - Started CafeSvcApplicationTests in 5.574 seconds (JVM running for 7.969)
+[INFO ] 2020-07-11 01:58:16.947 [main] CafeSvcApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-07-11 01:58:17.542 [main] GenericScope - BeanFactory id=957ffef1-b5ce-3d92-a45d-9b55ba2fc46b
+[INFO ] 2020-07-11 01:58:19.884 [main] NettyWebServer - Netty started on port(s): 8082
+[INFO ] 2020-07-11 01:58:20.443 [main] CafeSvcApplication - Started CafeSvcApplication in 4.685 seconds (JVM running for 6.176)
+[INFO ] 2020-07-11 01:58:33.053 [reactor-http-nio-2] CafeController - Cafe MicroService Start>>>>>>>>
+[INFO ] 2020-07-11 01:58:33.058 [reactor-http-nio-2] CafeController - Host : [localhost:8082]
+[INFO ] 2020-07-11 01:58:33.058 [reactor-http-nio-2] CafeController - Connection : [keep-alive]
+[INFO ] 2020-07-11 01:58:33.058 [reactor-http-nio-2] CafeController - Upgrade-Insecure-Requests : [1]
+[INFO ] 2020-07-11 01:58:33.058 [reactor-http-nio-2] CafeController - User-Agent : [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36]
+[INFO ] 2020-07-11 01:58:33.059 [reactor-http-nio-2] CafeController - Accept : [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9]
+[INFO ] 2020-07-11 01:58:33.059 [reactor-http-nio-2] CafeController - Sec-Fetch-Site : [none]
+[INFO ] 2020-07-11 01:58:33.059 [reactor-http-nio-2] CafeController - Sec-Fetch-Mode : [navigate]
+[INFO ] 2020-07-11 01:58:33.063 [reactor-http-nio-2] CafeController - Sec-Fetch-User : [?1]
+[INFO ] 2020-07-11 01:58:33.063 [reactor-http-nio-2] CafeController - Sec-Fetch-Dest : [document]
+[INFO ] 2020-07-11 01:58:33.063 [reactor-http-nio-2] CafeController - Accept-Encoding : [gzip, deflate, br]
+[INFO ] 2020-07-11 01:58:33.063 [reactor-http-nio-2] CafeController - Accept-Language : [ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7]
+[INFO ] 2020-07-11 01:58:33.064 [reactor-http-nio-2] CafeController - Cafe MicroService End>>>>>>>>
+[INFO ]  2020-07-11 02:00:10.940 [main] CafeSvcApplication - No active profile set, falling back to default profiles: default
+[INFO ]  2020-07-11 02:00:11.492 [main] GenericScope - BeanFactory id=957ffef1-b5ce-3d92-a45d-9b55ba2fc46b
+[INFO ]  2020-07-11 02:00:13.752 [main] NettyWebServer - Netty started on port(s): 8082
+[INFO ]  2020-07-11 02:00:14.205 [main] CafeSvcApplication - Started CafeSvcApplication in 4.334 seconds (JVM running for 5.733)
+[INFO ] 5e34bd8d104978d3 2020-07-11 02:00:19.693 [reactor-http-nio-2] CafeController - Cafe MicroService Start>>>>>>>>
+[INFO ] 5e34bd8d104978d3 2020-07-11 02:00:19.704 [reactor-http-nio-2] CafeController - Host : [localhost:8082]
+[INFO ] 5e34bd8d104978d3 2020-07-11 02:00:19.704 [reactor-http-nio-2] CafeController - Connection : [keep-alive]
+[INFO ] 5e34bd8d104978d3 2020-07-11 02:00:19.704 [reactor-http-nio-2] CafeController - Cache-Control : [max-age=0]
+[INFO ] 5e34bd8d104978d3 2020-07-11 02:00:19.705 [reactor-http-nio-2] CafeController - Upgrade-Insecure-Requests : [1]
+[INFO ] 5e34bd8d104978d3 2020-07-11 02:00:19.705 [reactor-http-nio-2] CafeController - User-Agent : [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36]
+[INFO ] 5e34bd8d104978d3 2020-07-11 02:00:19.705 [reactor-http-nio-2] CafeController - Accept : [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9]
+[INFO ] 5e34bd8d104978d3 2020-07-11 02:00:19.706 [reactor-http-nio-2] CafeController - Sec-Fetch-Site : [none]
+[INFO ] 5e34bd8d104978d3 2020-07-11 02:00:19.706 [reactor-http-nio-2] CafeController - Sec-Fetch-Mode : [navigate]
+[INFO ] 5e34bd8d104978d3 2020-07-11 02:00:19.706 [reactor-http-nio-2] CafeController - Sec-Fetch-User : [?1]
+[INFO ] 5e34bd8d104978d3 2020-07-11 02:00:19.709 [reactor-http-nio-2] CafeController - Sec-Fetch-Dest : [document]
+[INFO ] 5e34bd8d104978d3 2020-07-11 02:00:19.709 [reactor-http-nio-2] CafeController - Accept-Encoding : [gzip, deflate, br]
+[INFO ] 5e34bd8d104978d3 2020-07-11 02:00:19.709 [reactor-http-nio-2] CafeController - Accept-Language : [ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7]
+[INFO ] 5e34bd8d104978d3 2020-07-11 02:00:19.709 [reactor-http-nio-2] CafeController - Cafe MicroService End>>>>>>>>
+[INFO ]  2020-07-11 02:00:39.033 [main] CafeSvcApplication - No active profile set, falling back to default profiles: default
+[INFO ]  2020-07-11 02:00:39.664 [main] GenericScope - BeanFactory id=957ffef1-b5ce-3d92-a45d-9b55ba2fc46b
+[INFO ]  2020-07-11 02:00:42.071 [main] NettyWebServer - Netty started on port(s): 8082
+[INFO ]  2020-07-11 02:00:42.552 [main] CafeSvcApplication - Started CafeSvcApplication in 4.595 seconds (JVM running for 6.008)
+[INFO ] 8cc7797d37171e50 2020-07-11 02:00:44.998 [reactor-http-nio-2] CafeController - Cafe MicroService Start>>>>>>>>
+[INFO ] 8cc7797d37171e50 2020-07-11 02:00:45.002 [reactor-http-nio-2] CafeController - Host : [localhost:8082]
+[INFO ] 8cc7797d37171e50 2020-07-11 02:00:45.009 [reactor-http-nio-2] CafeController - Connection : [keep-alive]
+[INFO ] 8cc7797d37171e50 2020-07-11 02:00:45.009 [reactor-http-nio-2] CafeController - Cache-Control : [max-age=0]
+[INFO ] 8cc7797d37171e50 2020-07-11 02:00:45.009 [reactor-http-nio-2] CafeController - Upgrade-Insecure-Requests : [1]
+[INFO ] 8cc7797d37171e50 2020-07-11 02:00:45.010 [reactor-http-nio-2] CafeController - User-Agent : [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36]
+[INFO ] 8cc7797d37171e50 2020-07-11 02:00:45.010 [reactor-http-nio-2] CafeController - Accept : [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9]
+[INFO ] 8cc7797d37171e50 2020-07-11 02:00:45.010 [reactor-http-nio-2] CafeController - Sec-Fetch-Site : [none]
+[INFO ] 8cc7797d37171e50 2020-07-11 02:00:45.011 [reactor-http-nio-2] CafeController - Sec-Fetch-Mode : [navigate]
+[INFO ] 8cc7797d37171e50 2020-07-11 02:00:45.011 [reactor-http-nio-2] CafeController - Sec-Fetch-User : [?1]
+[INFO ] 8cc7797d37171e50 2020-07-11 02:00:45.011 [reactor-http-nio-2] CafeController - Sec-Fetch-Dest : [document]
+[INFO ] 8cc7797d37171e50 2020-07-11 02:00:45.016 [reactor-http-nio-2] CafeController - Accept-Encoding : [gzip, deflate, br]
+[INFO ] 8cc7797d37171e50 2020-07-11 02:00:45.016 [reactor-http-nio-2] CafeController - Accept-Language : [ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7]
+[INFO ] 8cc7797d37171e50 2020-07-11 02:00:45.017 [reactor-http-nio-2] CafeController - Cafe MicroService End>>>>>>>>
+[INFO ] {}[traceId]  2020-07-11 02:01:28.913 [main] CafeSvcApplication - No active profile set, falling back to default profiles: default
+[INFO ] {}[traceId]  2020-07-11 02:01:29.471 [main] GenericScope - BeanFactory id=957ffef1-b5ce-3d92-a45d-9b55ba2fc46b
+[INFO ] {}[traceId]  2020-07-11 02:01:31.687 [main] NettyWebServer - Netty started on port(s): 8082
+[INFO ] {}[traceId]  2020-07-11 02:01:32.167 [main] CafeSvcApplication - Started CafeSvcApplication in 4.377 seconds (JVM running for 5.69)
+[INFO ] {X-B3-SpanId=7cd9782895cd7b2e, X-B3-TraceId=7cd9782895cd7b2e, X-Span-Export=true, spanExportable=true, spanId=7cd9782895cd7b2e, traceId=7cd9782895cd7b2e}[traceId] 7cd9782895cd7b2e 2020-07-11 02:01:36.845 [reactor-http-nio-2] CafeController - Cafe MicroService Start>>>>>>>>
+[INFO ] {X-B3-SpanId=7cd9782895cd7b2e, X-B3-TraceId=7cd9782895cd7b2e, X-Span-Export=true, spanExportable=true, spanId=7cd9782895cd7b2e, traceId=7cd9782895cd7b2e}[traceId] 7cd9782895cd7b2e 2020-07-11 02:01:36.849 [reactor-http-nio-2] CafeController - Host : [localhost:8082]
+[INFO ] {X-B3-SpanId=7cd9782895cd7b2e, X-B3-TraceId=7cd9782895cd7b2e, X-Span-Export=true, spanExportable=true, spanId=7cd9782895cd7b2e, traceId=7cd9782895cd7b2e}[traceId] 7cd9782895cd7b2e 2020-07-11 02:01:36.856 [reactor-http-nio-2] CafeController - Connection : [keep-alive]
+[INFO ] {X-B3-SpanId=7cd9782895cd7b2e, X-B3-TraceId=7cd9782895cd7b2e, X-Span-Export=true, spanExportable=true, spanId=7cd9782895cd7b2e, traceId=7cd9782895cd7b2e}[traceId] 7cd9782895cd7b2e 2020-07-11 02:01:36.856 [reactor-http-nio-2] CafeController - Cache-Control : [max-age=0]
+[INFO ] {X-B3-SpanId=7cd9782895cd7b2e, X-B3-TraceId=7cd9782895cd7b2e, X-Span-Export=true, spanExportable=true, spanId=7cd9782895cd7b2e, traceId=7cd9782895cd7b2e}[traceId] 7cd9782895cd7b2e 2020-07-11 02:01:36.857 [reactor-http-nio-2] CafeController - Upgrade-Insecure-Requests : [1]
+[INFO ] {X-B3-SpanId=7cd9782895cd7b2e, X-B3-TraceId=7cd9782895cd7b2e, X-Span-Export=true, spanExportable=true, spanId=7cd9782895cd7b2e, traceId=7cd9782895cd7b2e}[traceId] 7cd9782895cd7b2e 2020-07-11 02:01:36.857 [reactor-http-nio-2] CafeController - User-Agent : [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36]
+[INFO ] {X-B3-SpanId=7cd9782895cd7b2e, X-B3-TraceId=7cd9782895cd7b2e, X-Span-Export=true, spanExportable=true, spanId=7cd9782895cd7b2e, traceId=7cd9782895cd7b2e}[traceId] 7cd9782895cd7b2e 2020-07-11 02:01:36.863 [reactor-http-nio-2] CafeController - Accept : [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9]
+[INFO ] {X-B3-SpanId=7cd9782895cd7b2e, X-B3-TraceId=7cd9782895cd7b2e, X-Span-Export=true, spanExportable=true, spanId=7cd9782895cd7b2e, traceId=7cd9782895cd7b2e}[traceId] 7cd9782895cd7b2e 2020-07-11 02:01:36.863 [reactor-http-nio-2] CafeController - Sec-Fetch-Site : [none]
+[INFO ] {X-B3-SpanId=7cd9782895cd7b2e, X-B3-TraceId=7cd9782895cd7b2e, X-Span-Export=true, spanExportable=true, spanId=7cd9782895cd7b2e, traceId=7cd9782895cd7b2e}[traceId] 7cd9782895cd7b2e 2020-07-11 02:01:36.863 [reactor-http-nio-2] CafeController - Sec-Fetch-Mode : [navigate]
+[INFO ] {X-B3-SpanId=7cd9782895cd7b2e, X-B3-TraceId=7cd9782895cd7b2e, X-Span-Export=true, spanExportable=true, spanId=7cd9782895cd7b2e, traceId=7cd9782895cd7b2e}[traceId] 7cd9782895cd7b2e 2020-07-11 02:01:36.867 [reactor-http-nio-2] CafeController - Sec-Fetch-User : [?1]
+[INFO ] {X-B3-SpanId=7cd9782895cd7b2e, X-B3-TraceId=7cd9782895cd7b2e, X-Span-Export=true, spanExportable=true, spanId=7cd9782895cd7b2e, traceId=7cd9782895cd7b2e}[traceId] 7cd9782895cd7b2e 2020-07-11 02:01:36.867 [reactor-http-nio-2] CafeController - Sec-Fetch-Dest : [document]
+[INFO ] {X-B3-SpanId=7cd9782895cd7b2e, X-B3-TraceId=7cd9782895cd7b2e, X-Span-Export=true, spanExportable=true, spanId=7cd9782895cd7b2e, traceId=7cd9782895cd7b2e}[traceId] 7cd9782895cd7b2e 2020-07-11 02:01:36.868 [reactor-http-nio-2] CafeController - Accept-Encoding : [gzip, deflate, br]
+[INFO ] {X-B3-SpanId=7cd9782895cd7b2e, X-B3-TraceId=7cd9782895cd7b2e, X-Span-Export=true, spanExportable=true, spanId=7cd9782895cd7b2e, traceId=7cd9782895cd7b2e}[traceId] 7cd9782895cd7b2e 2020-07-11 02:01:36.868 [reactor-http-nio-2] CafeController - Accept-Language : [ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7]
+[INFO ] {X-B3-SpanId=7cd9782895cd7b2e, X-B3-TraceId=7cd9782895cd7b2e, X-Span-Export=true, spanExportable=true, spanId=7cd9782895cd7b2e, traceId=7cd9782895cd7b2e}[traceId] 7cd9782895cd7b2e 2020-07-11 02:01:36.872 [reactor-http-nio-2] CafeController - Cafe MicroService End>>>>>>>>
+[INFO ] {}[traceId]  2020-07-11 02:03:24.914 [main] CafeSvcApplication - No active profile set, falling back to default profiles: default
+[INFO ] {}[traceId]  2020-07-11 02:03:25.487 [main] GenericScope - BeanFactory id=957ffef1-b5ce-3d92-a45d-9b55ba2fc46b
+[INFO ] {}[traceId]  2020-07-11 02:03:27.760 [main] NettyWebServer - Netty started on port(s): 8082
+[INFO ] {}[traceId]  2020-07-11 02:03:28.244 [main] CafeSvcApplication - Started CafeSvcApplication in 4.485 seconds (JVM running for 5.847)
+[INFO ] {X-B3-SpanId=63291999bbd9db28, X-B3-TraceId=63291999bbd9db28, X-Span-Export=true, spanExportable=true, spanId=63291999bbd9db28, traceId=63291999bbd9db28}[traceId] 63291999bbd9db28 2020-07-11 02:03:30.953 [reactor-http-nio-2] CafeController - Cafe MicroService Start>>>>>>>>
+[INFO ] {X-B3-SpanId=63291999bbd9db28, X-B3-TraceId=63291999bbd9db28, X-Span-Export=true, spanExportable=true, spanId=63291999bbd9db28, traceId=63291999bbd9db28}[traceId] 63291999bbd9db28 2020-07-11 02:03:30.963 [reactor-http-nio-2] CafeController - Host : [localhost:8082]
+[INFO ] {X-B3-SpanId=63291999bbd9db28, X-B3-TraceId=63291999bbd9db28, X-Span-Export=true, spanExportable=true, spanId=63291999bbd9db28, traceId=63291999bbd9db28}[traceId] 63291999bbd9db28 2020-07-11 02:03:30.964 [reactor-http-nio-2] CafeController - Connection : [keep-alive]
+[INFO ] {X-B3-SpanId=63291999bbd9db28, X-B3-TraceId=63291999bbd9db28, X-Span-Export=true, spanExportable=true, spanId=63291999bbd9db28, traceId=63291999bbd9db28}[traceId] 63291999bbd9db28 2020-07-11 02:03:30.964 [reactor-http-nio-2] CafeController - Cache-Control : [max-age=0]
+[INFO ] {X-B3-SpanId=63291999bbd9db28, X-B3-TraceId=63291999bbd9db28, X-Span-Export=true, spanExportable=true, spanId=63291999bbd9db28, traceId=63291999bbd9db28}[traceId] 63291999bbd9db28 2020-07-11 02:03:30.965 [reactor-http-nio-2] CafeController - Upgrade-Insecure-Requests : [1]
+[INFO ] {X-B3-SpanId=63291999bbd9db28, X-B3-TraceId=63291999bbd9db28, X-Span-Export=true, spanExportable=true, spanId=63291999bbd9db28, traceId=63291999bbd9db28}[traceId] 63291999bbd9db28 2020-07-11 02:03:30.968 [reactor-http-nio-2] CafeController - User-Agent : [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36]
+[INFO ] {X-B3-SpanId=63291999bbd9db28, X-B3-TraceId=63291999bbd9db28, X-Span-Export=true, spanExportable=true, spanId=63291999bbd9db28, traceId=63291999bbd9db28}[traceId] 63291999bbd9db28 2020-07-11 02:03:30.969 [reactor-http-nio-2] CafeController - Accept : [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9]
+[INFO ] {X-B3-SpanId=63291999bbd9db28, X-B3-TraceId=63291999bbd9db28, X-Span-Export=true, spanExportable=true, spanId=63291999bbd9db28, traceId=63291999bbd9db28}[traceId] 63291999bbd9db28 2020-07-11 02:03:30.969 [reactor-http-nio-2] CafeController - Sec-Fetch-Site : [none]
+[INFO ] {X-B3-SpanId=63291999bbd9db28, X-B3-TraceId=63291999bbd9db28, X-Span-Export=true, spanExportable=true, spanId=63291999bbd9db28, traceId=63291999bbd9db28}[traceId] 63291999bbd9db28 2020-07-11 02:03:30.974 [reactor-http-nio-2] CafeController - Sec-Fetch-Mode : [navigate]
+[INFO ] {X-B3-SpanId=63291999bbd9db28, X-B3-TraceId=63291999bbd9db28, X-Span-Export=true, spanExportable=true, spanId=63291999bbd9db28, traceId=63291999bbd9db28}[traceId] 63291999bbd9db28 2020-07-11 02:03:30.975 [reactor-http-nio-2] CafeController - Sec-Fetch-User : [?1]
+[INFO ] {X-B3-SpanId=63291999bbd9db28, X-B3-TraceId=63291999bbd9db28, X-Span-Export=true, spanExportable=true, spanId=63291999bbd9db28, traceId=63291999bbd9db28}[traceId] 63291999bbd9db28 2020-07-11 02:03:30.975 [reactor-http-nio-2] CafeController - Sec-Fetch-Dest : [document]
+[INFO ] {X-B3-SpanId=63291999bbd9db28, X-B3-TraceId=63291999bbd9db28, X-Span-Export=true, spanExportable=true, spanId=63291999bbd9db28, traceId=63291999bbd9db28}[traceId] 63291999bbd9db28 2020-07-11 02:03:30.975 [reactor-http-nio-2] CafeController - Accept-Encoding : [gzip, deflate, br]
+[INFO ] {X-B3-SpanId=63291999bbd9db28, X-B3-TraceId=63291999bbd9db28, X-Span-Export=true, spanExportable=true, spanId=63291999bbd9db28, traceId=63291999bbd9db28}[traceId] 63291999bbd9db28 2020-07-11 02:03:30.980 [reactor-http-nio-2] CafeController - Accept-Language : [ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7]
+[INFO ] {X-B3-SpanId=63291999bbd9db28, X-B3-TraceId=63291999bbd9db28, X-Span-Export=true, spanExportable=true, spanId=63291999bbd9db28, traceId=63291999bbd9db28}[traceId] 63291999bbd9db28 2020-07-11 02:03:30.980 [reactor-http-nio-2] CafeController - Cafe MicroService End>>>>>>>>
+[INFO ] {}[traceId]  2020-07-11 02:03:56.038 [main] CafeSvcApplication - No active profile set, falling back to default profiles: default
+[INFO ] {}[traceId]  2020-07-11 02:03:56.610 [main] GenericScope - BeanFactory id=957ffef1-b5ce-3d92-a45d-9b55ba2fc46b
+[INFO ] {}[traceId]  2020-07-11 02:03:58.867 [main] NettyWebServer - Netty started on port(s): 8082
+[INFO ] {}[traceId]  2020-07-11 02:03:59.338 [main] CafeSvcApplication - Started CafeSvcApplication in 4.4 seconds (JVM running for 5.68)
+[INFO ] {X-B3-SpanId=2d9e708c3f1a3e3f, X-B3-TraceId=2d9e708c3f1a3e3f, X-Span-Export=true, spanExportable=true, spanId=2d9e708c3f1a3e3f, traceId=2d9e708c3f1a3e3f}[traceId] 2d9e708c3f1a3e3f 2020-07-11 02:04:02.561 [reactor-http-nio-2] CafeController - Cafe MicroService Start>>>>>>>>
+[INFO ] {X-B3-SpanId=2d9e708c3f1a3e3f, X-B3-TraceId=2d9e708c3f1a3e3f, X-Span-Export=true, spanExportable=true, spanId=2d9e708c3f1a3e3f, traceId=2d9e708c3f1a3e3f}[traceId] 2d9e708c3f1a3e3f 2020-07-11 02:04:02.564 [reactor-http-nio-2] CafeController - Host : [localhost:8082]
+[INFO ] {X-B3-SpanId=2d9e708c3f1a3e3f, X-B3-TraceId=2d9e708c3f1a3e3f, X-Span-Export=true, spanExportable=true, spanId=2d9e708c3f1a3e3f, traceId=2d9e708c3f1a3e3f}[traceId] 2d9e708c3f1a3e3f 2020-07-11 02:04:02.566 [reactor-http-nio-2] CafeController - Connection : [keep-alive]
+[INFO ] {X-B3-SpanId=2d9e708c3f1a3e3f, X-B3-TraceId=2d9e708c3f1a3e3f, X-Span-Export=true, spanExportable=true, spanId=2d9e708c3f1a3e3f, traceId=2d9e708c3f1a3e3f}[traceId] 2d9e708c3f1a3e3f 2020-07-11 02:04:02.566 [reactor-http-nio-2] CafeController - Cache-Control : [max-age=0]
+[INFO ] {X-B3-SpanId=2d9e708c3f1a3e3f, X-B3-TraceId=2d9e708c3f1a3e3f, X-Span-Export=true, spanExportable=true, spanId=2d9e708c3f1a3e3f, traceId=2d9e708c3f1a3e3f}[traceId] 2d9e708c3f1a3e3f 2020-07-11 02:04:02.569 [reactor-http-nio-2] CafeController - Upgrade-Insecure-Requests : [1]
+[INFO ] {X-B3-SpanId=2d9e708c3f1a3e3f, X-B3-TraceId=2d9e708c3f1a3e3f, X-Span-Export=true, spanExportable=true, spanId=2d9e708c3f1a3e3f, traceId=2d9e708c3f1a3e3f}[traceId] 2d9e708c3f1a3e3f 2020-07-11 02:04:02.570 [reactor-http-nio-2] CafeController - User-Agent : [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36]
+[INFO ] {X-B3-SpanId=2d9e708c3f1a3e3f, X-B3-TraceId=2d9e708c3f1a3e3f, X-Span-Export=true, spanExportable=true, spanId=2d9e708c3f1a3e3f, traceId=2d9e708c3f1a3e3f}[traceId] 2d9e708c3f1a3e3f 2020-07-11 02:04:02.571 [reactor-http-nio-2] CafeController - Accept : [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9]
+[INFO ] {X-B3-SpanId=2d9e708c3f1a3e3f, X-B3-TraceId=2d9e708c3f1a3e3f, X-Span-Export=true, spanExportable=true, spanId=2d9e708c3f1a3e3f, traceId=2d9e708c3f1a3e3f}[traceId] 2d9e708c3f1a3e3f 2020-07-11 02:04:02.572 [reactor-http-nio-2] CafeController - Sec-Fetch-Site : [none]
+[INFO ] {X-B3-SpanId=2d9e708c3f1a3e3f, X-B3-TraceId=2d9e708c3f1a3e3f, X-Span-Export=true, spanExportable=true, spanId=2d9e708c3f1a3e3f, traceId=2d9e708c3f1a3e3f}[traceId] 2d9e708c3f1a3e3f 2020-07-11 02:04:02.575 [reactor-http-nio-2] CafeController - Sec-Fetch-Mode : [navigate]
+[INFO ] {X-B3-SpanId=2d9e708c3f1a3e3f, X-B3-TraceId=2d9e708c3f1a3e3f, X-Span-Export=true, spanExportable=true, spanId=2d9e708c3f1a3e3f, traceId=2d9e708c3f1a3e3f}[traceId] 2d9e708c3f1a3e3f 2020-07-11 02:04:02.576 [reactor-http-nio-2] CafeController - Sec-Fetch-User : [?1]
+[INFO ] {X-B3-SpanId=2d9e708c3f1a3e3f, X-B3-TraceId=2d9e708c3f1a3e3f, X-Span-Export=true, spanExportable=true, spanId=2d9e708c3f1a3e3f, traceId=2d9e708c3f1a3e3f}[traceId] 2d9e708c3f1a3e3f 2020-07-11 02:04:02.577 [reactor-http-nio-2] CafeController - Sec-Fetch-Dest : [document]
+[INFO ] {X-B3-SpanId=2d9e708c3f1a3e3f, X-B3-TraceId=2d9e708c3f1a3e3f, X-Span-Export=true, spanExportable=true, spanId=2d9e708c3f1a3e3f, traceId=2d9e708c3f1a3e3f}[traceId] 2d9e708c3f1a3e3f 2020-07-11 02:04:02.577 [reactor-http-nio-2] CafeController - Accept-Encoding : [gzip, deflate, br]
+[INFO ] {X-B3-SpanId=2d9e708c3f1a3e3f, X-B3-TraceId=2d9e708c3f1a3e3f, X-Span-Export=true, spanExportable=true, spanId=2d9e708c3f1a3e3f, traceId=2d9e708c3f1a3e3f}[traceId] 2d9e708c3f1a3e3f 2020-07-11 02:04:02.580 [reactor-http-nio-2] CafeController - Accept-Language : [ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7]
+[INFO ] {X-B3-SpanId=2d9e708c3f1a3e3f, X-B3-TraceId=2d9e708c3f1a3e3f, X-Span-Export=true, spanExportable=true, spanId=2d9e708c3f1a3e3f, traceId=2d9e708c3f1a3e3f}[traceId] 2d9e708c3f1a3e3f 2020-07-11 02:04:02.580 [reactor-http-nio-2] CafeController - Cafe MicroService End>>>>>>>>
+[INFO ] ,, 2020-07-11 02:08:11.184 [main] CafeSvcApplication - No active profile set, falling back to default profiles: default
+[INFO ] ,, 2020-07-11 02:08:11.757 [main] GenericScope - BeanFactory id=957ffef1-b5ce-3d92-a45d-9b55ba2fc46b
+[INFO ] ,, 2020-07-11 02:08:14.116 [main] NettyWebServer - Netty started on port(s): 8082
+[INFO ] ,, 2020-07-11 02:08:14.624 [main] CafeSvcApplication - Started CafeSvcApplication in 4.589 seconds (JVM running for 5.92)
+[INFO ] ,585849a0b146921c,585849a0b146921c 2020-07-11 02:08:17.036 [reactor-http-nio-2] CafeController - Cafe MicroService Start>>>>>>>>
+[INFO ] ,585849a0b146921c,585849a0b146921c 2020-07-11 02:08:17.040 [reactor-http-nio-2] CafeController - Host : [localhost:8082]
+[INFO ] ,585849a0b146921c,585849a0b146921c 2020-07-11 02:08:17.041 [reactor-http-nio-2] CafeController - Connection : [keep-alive]
+[INFO ] ,585849a0b146921c,585849a0b146921c 2020-07-11 02:08:17.041 [reactor-http-nio-2] CafeController - Cache-Control : [max-age=0]
+[INFO ] ,585849a0b146921c,585849a0b146921c 2020-07-11 02:08:17.041 [reactor-http-nio-2] CafeController - Upgrade-Insecure-Requests : [1]
+[INFO ] ,585849a0b146921c,585849a0b146921c 2020-07-11 02:08:17.041 [reactor-http-nio-2] CafeController - User-Agent : [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36]
+[INFO ] ,585849a0b146921c,585849a0b146921c 2020-07-11 02:08:17.042 [reactor-http-nio-2] CafeController - Accept : [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9]
+[INFO ] ,585849a0b146921c,585849a0b146921c 2020-07-11 02:08:17.045 [reactor-http-nio-2] CafeController - Sec-Fetch-Site : [none]
+[INFO ] ,585849a0b146921c,585849a0b146921c 2020-07-11 02:08:17.046 [reactor-http-nio-2] CafeController - Sec-Fetch-Mode : [navigate]
+[INFO ] ,585849a0b146921c,585849a0b146921c 2020-07-11 02:08:17.046 [reactor-http-nio-2] CafeController - Sec-Fetch-User : [?1]
+[INFO ] ,585849a0b146921c,585849a0b146921c 2020-07-11 02:08:17.046 [reactor-http-nio-2] CafeController - Sec-Fetch-Dest : [document]
+[INFO ] ,585849a0b146921c,585849a0b146921c 2020-07-11 02:08:17.047 [reactor-http-nio-2] CafeController - Accept-Encoding : [gzip, deflate, br]
+[INFO ] ,585849a0b146921c,585849a0b146921c 2020-07-11 02:08:17.047 [reactor-http-nio-2] CafeController - Accept-Language : [ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7]
+[INFO ] ,585849a0b146921c,585849a0b146921c 2020-07-11 02:08:17.047 [reactor-http-nio-2] CafeController - Cafe MicroService End>>>>>>>>
+[INFO ] ,, 2020-07-11 02:09:12.989 [main] CafeSvcApplication - No active profile set, falling back to default profiles: default
+[INFO ] ,, 2020-07-11 02:09:13.580 [main] GenericScope - BeanFactory id=957ffef1-b5ce-3d92-a45d-9b55ba2fc46b
+[INFO ] ,, 2020-07-11 02:09:15.951 [main] NettyWebServer - Netty started on port(s): 8082
+[INFO ] ,, 2020-07-11 02:09:16.444 [main] CafeSvcApplication - Started CafeSvcApplication in 4.634 seconds (JVM running for 5.962)
+[INFO ] ,f9f0821785111d47,f9f0821785111d47 2020-07-11 02:09:17.481 [reactor-http-nio-2] CafeController - Cafe MicroService Start>>>>>>>>
+[INFO ] ,f9f0821785111d47,f9f0821785111d47 2020-07-11 02:09:17.485 [reactor-http-nio-2] CafeController - Host : [localhost:8082]
+[INFO ] ,f9f0821785111d47,f9f0821785111d47 2020-07-11 02:09:17.486 [reactor-http-nio-2] CafeController - Connection : [keep-alive]
+[INFO ] ,f9f0821785111d47,f9f0821785111d47 2020-07-11 02:09:17.486 [reactor-http-nio-2] CafeController - Cache-Control : [max-age=0]
+[INFO ] ,f9f0821785111d47,f9f0821785111d47 2020-07-11 02:09:17.486 [reactor-http-nio-2] CafeController - Upgrade-Insecure-Requests : [1]
+[INFO ] ,f9f0821785111d47,f9f0821785111d47 2020-07-11 02:09:17.493 [reactor-http-nio-2] CafeController - User-Agent : [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36]
+[INFO ] ,f9f0821785111d47,f9f0821785111d47 2020-07-11 02:09:17.493 [reactor-http-nio-2] CafeController - Accept : [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9]
+[INFO ] ,f9f0821785111d47,f9f0821785111d47 2020-07-11 02:09:17.494 [reactor-http-nio-2] CafeController - Sec-Fetch-Site : [none]
+[INFO ] ,f9f0821785111d47,f9f0821785111d47 2020-07-11 02:09:17.494 [reactor-http-nio-2] CafeController - Sec-Fetch-Mode : [navigate]
+[INFO ] ,f9f0821785111d47,f9f0821785111d47 2020-07-11 02:09:17.494 [reactor-http-nio-2] CafeController - Sec-Fetch-User : [?1]
+[INFO ] ,f9f0821785111d47,f9f0821785111d47 2020-07-11 02:09:17.494 [reactor-http-nio-2] CafeController - Sec-Fetch-Dest : [document]
+[INFO ] ,f9f0821785111d47,f9f0821785111d47 2020-07-11 02:09:17.494 [reactor-http-nio-2] CafeController - Accept-Encoding : [gzip, deflate, br]
+[INFO ] ,f9f0821785111d47,f9f0821785111d47 2020-07-11 02:09:17.500 [reactor-http-nio-2] CafeController - Accept-Language : [ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7]
+[INFO ] ,f9f0821785111d47,f9f0821785111d47 2020-07-11 02:09:17.500 [reactor-http-nio-2] CafeController - Cafe MicroService End>>>>>>>>
+[INFO ] ,c729d09f4183bf6e,c729d09f4183bf6e 2020-07-11 02:09:24.113 [reactor-http-nio-2] CafeController - Cafe MicroService Start>>>>>>>>
+[INFO ] ,c729d09f4183bf6e,c729d09f4183bf6e 2020-07-11 02:09:24.114 [reactor-http-nio-2] CafeController - Host : [localhost:8082]
+[INFO ] ,c729d09f4183bf6e,c729d09f4183bf6e 2020-07-11 02:09:24.115 [reactor-http-nio-2] CafeController - Connection : [keep-alive]
+[INFO ] ,c729d09f4183bf6e,c729d09f4183bf6e 2020-07-11 02:09:24.115 [reactor-http-nio-2] CafeController - Cache-Control : [max-age=0]
+[INFO ] ,c729d09f4183bf6e,c729d09f4183bf6e 2020-07-11 02:09:24.115 [reactor-http-nio-2] CafeController - Upgrade-Insecure-Requests : [1]
+[INFO ] ,c729d09f4183bf6e,c729d09f4183bf6e 2020-07-11 02:09:24.115 [reactor-http-nio-2] CafeController - User-Agent : [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36]
+[INFO ] ,c729d09f4183bf6e,c729d09f4183bf6e 2020-07-11 02:09:24.118 [reactor-http-nio-2] CafeController - Accept : [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9]
+[INFO ] ,c729d09f4183bf6e,c729d09f4183bf6e 2020-07-11 02:09:24.118 [reactor-http-nio-2] CafeController - Sec-Fetch-Site : [none]
+[INFO ] ,c729d09f4183bf6e,c729d09f4183bf6e 2020-07-11 02:09:24.119 [reactor-http-nio-2] CafeController - Sec-Fetch-Mode : [navigate]
+[INFO ] ,c729d09f4183bf6e,c729d09f4183bf6e 2020-07-11 02:09:24.119 [reactor-http-nio-2] CafeController - Sec-Fetch-User : [?1]
+[INFO ] ,c729d09f4183bf6e,c729d09f4183bf6e 2020-07-11 02:09:24.119 [reactor-http-nio-2] CafeController - Sec-Fetch-Dest : [document]
+[INFO ] ,c729d09f4183bf6e,c729d09f4183bf6e 2020-07-11 02:09:24.119 [reactor-http-nio-2] CafeController - Accept-Encoding : [gzip, deflate, br]
+[INFO ] ,c729d09f4183bf6e,c729d09f4183bf6e 2020-07-11 02:09:24.119 [reactor-http-nio-2] CafeController - Accept-Language : [ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7]
+[INFO ] ,c729d09f4183bf6e,c729d09f4183bf6e 2020-07-11 02:09:24.124 [reactor-http-nio-2] CafeController - Cafe MicroService End>>>>>>>>
+[INFO ] ,, 2020-07-11 02:10:25.875 [main] CafeSvcApplication - No active profile set, falling back to default profiles: default
+[INFO ] ,, 2020-07-11 02:10:26.459 [main] GenericScope - BeanFactory id=957ffef1-b5ce-3d92-a45d-9b55ba2fc46b
+[INFO ] ,, 2020-07-11 02:10:28.784 [main] NettyWebServer - Netty started on port(s): 8082
+[INFO ] ,, 2020-07-11 02:10:29.240 [main] CafeSvcApplication - Started CafeSvcApplication in 4.478 seconds (JVM running for 5.756)
+[INFO ] ,d8afdb67d1fedaaf,d8afdb67d1fedaaf 2020-07-11 02:10:38.609 [reactor-http-nio-2] CafeController - Cafe MicroService Start>>>>>>>>
+[INFO ] ,d8afdb67d1fedaaf,d8afdb67d1fedaaf 2020-07-11 02:10:38.613 [reactor-http-nio-2] CafeController - Host : [localhost:8082]
+[INFO ] ,d8afdb67d1fedaaf,d8afdb67d1fedaaf 2020-07-11 02:10:38.613 [reactor-http-nio-2] CafeController - Connection : [keep-alive]
+[INFO ] ,d8afdb67d1fedaaf,d8afdb67d1fedaaf 2020-07-11 02:10:38.620 [reactor-http-nio-2] CafeController - Cache-Control : [max-age=0]
+[INFO ] ,d8afdb67d1fedaaf,d8afdb67d1fedaaf 2020-07-11 02:10:38.621 [reactor-http-nio-2] CafeController - Upgrade-Insecure-Requests : [1]
+[INFO ] ,d8afdb67d1fedaaf,d8afdb67d1fedaaf 2020-07-11 02:10:38.621 [reactor-http-nio-2] CafeController - User-Agent : [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36]
+[INFO ] ,d8afdb67d1fedaaf,d8afdb67d1fedaaf 2020-07-11 02:10:38.621 [reactor-http-nio-2] CafeController - Accept : [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9]
+[INFO ] ,d8afdb67d1fedaaf,d8afdb67d1fedaaf 2020-07-11 02:10:38.621 [reactor-http-nio-2] CafeController - Sec-Fetch-Site : [none]
+[INFO ] ,d8afdb67d1fedaaf,d8afdb67d1fedaaf 2020-07-11 02:10:38.622 [reactor-http-nio-2] CafeController - Sec-Fetch-Mode : [navigate]
+[INFO ] ,d8afdb67d1fedaaf,d8afdb67d1fedaaf 2020-07-11 02:10:38.622 [reactor-http-nio-2] CafeController - Sec-Fetch-User : [?1]
+[INFO ] ,d8afdb67d1fedaaf,d8afdb67d1fedaaf 2020-07-11 02:10:38.629 [reactor-http-nio-2] CafeController - Sec-Fetch-Dest : [document]
+[INFO ] ,d8afdb67d1fedaaf,d8afdb67d1fedaaf 2020-07-11 02:10:38.629 [reactor-http-nio-2] CafeController - Accept-Encoding : [gzip, deflate, br]
+[INFO ] ,d8afdb67d1fedaaf,d8afdb67d1fedaaf 2020-07-11 02:10:38.629 [reactor-http-nio-2] CafeController - Accept-Language : [ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7]
+[INFO ] ,d8afdb67d1fedaaf,d8afdb67d1fedaaf 2020-07-11 02:10:38.629 [reactor-http-nio-2] CafeController - Cafe MicroService End>>>>>>>>
+[INFO ] ,ba667daf14ece643,ba667daf14ece643 2020-07-11 02:10:43.119 [reactor-http-nio-2] CafeController - Cafe MicroService Start>>>>>>>>
+[INFO ] ,ba667daf14ece643,ba667daf14ece643 2020-07-11 02:10:43.120 [reactor-http-nio-2] CafeController - Host : [localhost:8082]
+[INFO ] ,ba667daf14ece643,ba667daf14ece643 2020-07-11 02:10:43.120 [reactor-http-nio-2] CafeController - Connection : [keep-alive]
+[INFO ] ,ba667daf14ece643,ba667daf14ece643 2020-07-11 02:10:43.121 [reactor-http-nio-2] CafeController - Cache-Control : [max-age=0]
+[INFO ] ,ba667daf14ece643,ba667daf14ece643 2020-07-11 02:10:43.127 [reactor-http-nio-2] CafeController - Upgrade-Insecure-Requests : [1]
+[INFO ] ,ba667daf14ece643,ba667daf14ece643 2020-07-11 02:10:43.127 [reactor-http-nio-2] CafeController - User-Agent : [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36]
+[INFO ] ,ba667daf14ece643,ba667daf14ece643 2020-07-11 02:10:43.128 [reactor-http-nio-2] CafeController - Accept : [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9]
+[INFO ] ,ba667daf14ece643,ba667daf14ece643 2020-07-11 02:10:43.128 [reactor-http-nio-2] CafeController - Sec-Fetch-Site : [none]
+[INFO ] ,ba667daf14ece643,ba667daf14ece643 2020-07-11 02:10:43.129 [reactor-http-nio-2] CafeController - Sec-Fetch-Mode : [navigate]
+[INFO ] ,ba667daf14ece643,ba667daf14ece643 2020-07-11 02:10:43.130 [reactor-http-nio-2] CafeController - Sec-Fetch-User : [?1]
+[INFO ] ,ba667daf14ece643,ba667daf14ece643 2020-07-11 02:10:43.130 [reactor-http-nio-2] CafeController - Sec-Fetch-Dest : [document]
+[INFO ] ,ba667daf14ece643,ba667daf14ece643 2020-07-11 02:10:43.139 [reactor-http-nio-2] CafeController - Accept-Encoding : [gzip, deflate, br]
+[INFO ] ,ba667daf14ece643,ba667daf14ece643 2020-07-11 02:10:43.139 [reactor-http-nio-2] CafeController - Accept-Language : [ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7]
+[INFO ] ,ba667daf14ece643,ba667daf14ece643 2020-07-11 02:10:43.140 [reactor-http-nio-2] CafeController - Cafe MicroService End>>>>>>>>
+[INFO ] ,9923ee982700e790,9923ee982700e790 2020-07-11 02:10:43.478 [reactor-http-nio-2] CafeController - Cafe MicroService Start>>>>>>>>
+[INFO ] ,9923ee982700e790,9923ee982700e790 2020-07-11 02:10:43.478 [reactor-http-nio-2] CafeController - Host : [localhost:8082]
+[INFO ] ,9923ee982700e790,9923ee982700e790 2020-07-11 02:10:43.478 [reactor-http-nio-2] CafeController - Connection : [keep-alive]
+[INFO ] ,9923ee982700e790,9923ee982700e790 2020-07-11 02:10:43.478 [reactor-http-nio-2] CafeController - Cache-Control : [max-age=0]
+[INFO ] ,9923ee982700e790,9923ee982700e790 2020-07-11 02:10:43.478 [reactor-http-nio-2] CafeController - Upgrade-Insecure-Requests : [1]
+[INFO ] ,9923ee982700e790,9923ee982700e790 2020-07-11 02:10:43.482 [reactor-http-nio-2] CafeController - User-Agent : [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36]
+[INFO ] ,9923ee982700e790,9923ee982700e790 2020-07-11 02:10:43.482 [reactor-http-nio-2] CafeController - Accept : [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9]
+[INFO ] ,9923ee982700e790,9923ee982700e790 2020-07-11 02:10:43.483 [reactor-http-nio-2] CafeController - Sec-Fetch-Site : [none]
+[INFO ] ,9923ee982700e790,9923ee982700e790 2020-07-11 02:10:43.483 [reactor-http-nio-2] CafeController - Sec-Fetch-Mode : [navigate]
+[INFO ] ,9923ee982700e790,9923ee982700e790 2020-07-11 02:10:43.483 [reactor-http-nio-2] CafeController - Sec-Fetch-User : [?1]
+[INFO ] ,9923ee982700e790,9923ee982700e790 2020-07-11 02:10:43.483 [reactor-http-nio-2] CafeController - Sec-Fetch-Dest : [document]
+[INFO ] ,9923ee982700e790,9923ee982700e790 2020-07-11 02:10:43.483 [reactor-http-nio-2] CafeController - Accept-Encoding : [gzip, deflate, br]
+[INFO ] ,9923ee982700e790,9923ee982700e790 2020-07-11 02:10:43.488 [reactor-http-nio-2] CafeController - Accept-Language : [ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7]
+[INFO ] ,9923ee982700e790,9923ee982700e790 2020-07-11 02:10:43.488 [reactor-http-nio-2] CafeController - Cafe MicroService End>>>>>>>>
+[INFO ] ,56d77555614eae67,56d77555614eae67 2020-07-11 02:10:43.677 [reactor-http-nio-2] CafeController - Cafe MicroService Start>>>>>>>>
+[INFO ] ,56d77555614eae67,56d77555614eae67 2020-07-11 02:10:43.678 [reactor-http-nio-2] CafeController - Host : [localhost:8082]
+[INFO ] ,56d77555614eae67,56d77555614eae67 2020-07-11 02:10:43.679 [reactor-http-nio-2] CafeController - Connection : [keep-alive]
+[INFO ] ,56d77555614eae67,56d77555614eae67 2020-07-11 02:10:43.680 [reactor-http-nio-2] CafeController - Cache-Control : [max-age=0]
+[INFO ] ,56d77555614eae67,56d77555614eae67 2020-07-11 02:10:43.680 [reactor-http-nio-2] CafeController - Upgrade-Insecure-Requests : [1]
+[INFO ] ,56d77555614eae67,56d77555614eae67 2020-07-11 02:10:43.681 [reactor-http-nio-2] CafeController - User-Agent : [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36]
+[INFO ] ,56d77555614eae67,56d77555614eae67 2020-07-11 02:10:43.693 [reactor-http-nio-2] CafeController - Accept : [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9]
+[INFO ] ,56d77555614eae67,56d77555614eae67 2020-07-11 02:10:43.694 [reactor-http-nio-2] CafeController - Sec-Fetch-Site : [none]
+[INFO ] ,56d77555614eae67,56d77555614eae67 2020-07-11 02:10:43.696 [reactor-http-nio-2] CafeController - Sec-Fetch-Mode : [navigate]
+[INFO ] ,56d77555614eae67,56d77555614eae67 2020-07-11 02:10:43.696 [reactor-http-nio-2] CafeController - Sec-Fetch-User : [?1]
+[INFO ] ,56d77555614eae67,56d77555614eae67 2020-07-11 02:10:43.696 [reactor-http-nio-2] CafeController - Sec-Fetch-Dest : [document]
+[INFO ] ,56d77555614eae67,56d77555614eae67 2020-07-11 02:10:43.697 [reactor-http-nio-2] CafeController - Accept-Encoding : [gzip, deflate, br]
+[INFO ] ,56d77555614eae67,56d77555614eae67 2020-07-11 02:10:43.697 [reactor-http-nio-2] CafeController - Accept-Language : [ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7]
+[INFO ] ,56d77555614eae67,56d77555614eae67 2020-07-11 02:10:43.706 [reactor-http-nio-2] CafeController - Cafe MicroService End>>>>>>>>
+[INFO ] ,5a33f5bbc86a4683,5a33f5bbc86a4683 2020-07-11 02:10:43.859 [reactor-http-nio-2] CafeController - Cafe MicroService Start>>>>>>>>
+[INFO ] ,5a33f5bbc86a4683,5a33f5bbc86a4683 2020-07-11 02:10:43.861 [reactor-http-nio-2] CafeController - Host : [localhost:8082]
+[INFO ] ,5a33f5bbc86a4683,5a33f5bbc86a4683 2020-07-11 02:10:43.862 [reactor-http-nio-2] CafeController - Connection : [keep-alive]
+[INFO ] ,5a33f5bbc86a4683,5a33f5bbc86a4683 2020-07-11 02:10:43.863 [reactor-http-nio-2] CafeController - Cache-Control : [max-age=0]
+[INFO ] ,5a33f5bbc86a4683,5a33f5bbc86a4683 2020-07-11 02:10:43.863 [reactor-http-nio-2] CafeController - Upgrade-Insecure-Requests : [1]
+[INFO ] ,5a33f5bbc86a4683,5a33f5bbc86a4683 2020-07-11 02:10:43.864 [reactor-http-nio-2] CafeController - User-Agent : [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36]
+[INFO ] ,5a33f5bbc86a4683,5a33f5bbc86a4683 2020-07-11 02:10:43.865 [reactor-http-nio-2] CafeController - Accept : [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9]
+[INFO ] ,5a33f5bbc86a4683,5a33f5bbc86a4683 2020-07-11 02:10:43.875 [reactor-http-nio-2] CafeController - Sec-Fetch-Site : [none]
+[INFO ] ,5a33f5bbc86a4683,5a33f5bbc86a4683 2020-07-11 02:10:43.876 [reactor-http-nio-2] CafeController - Sec-Fetch-Mode : [navigate]
+[INFO ] ,5a33f5bbc86a4683,5a33f5bbc86a4683 2020-07-11 02:10:43.876 [reactor-http-nio-2] CafeController - Sec-Fetch-User : [?1]
+[INFO ] ,5a33f5bbc86a4683,5a33f5bbc86a4683 2020-07-11 02:10:43.877 [reactor-http-nio-2] CafeController - Sec-Fetch-Dest : [document]
+[INFO ] ,5a33f5bbc86a4683,5a33f5bbc86a4683 2020-07-11 02:10:43.877 [reactor-http-nio-2] CafeController - Accept-Encoding : [gzip, deflate, br]
+[INFO ] ,5a33f5bbc86a4683,5a33f5bbc86a4683 2020-07-11 02:10:43.878 [reactor-http-nio-2] CafeController - Accept-Language : [ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7]
+[INFO ] ,5a33f5bbc86a4683,5a33f5bbc86a4683 2020-07-11 02:10:43.878 [reactor-http-nio-2] CafeController - Cafe MicroService End>>>>>>>>
+[INFO ] ,47e64c5685bf1e36,47e64c5685bf1e36 2020-07-11 02:10:49.271 [reactor-http-nio-2] CafeController - Cafe MicroService Start>>>>>>>>
+[INFO ] ,47e64c5685bf1e36,47e64c5685bf1e36 2020-07-11 02:10:49.272 [reactor-http-nio-2] CafeController - Host : [localhost:8082]
+[INFO ] ,47e64c5685bf1e36,47e64c5685bf1e36 2020-07-11 02:10:49.272 [reactor-http-nio-2] CafeController - Connection : [keep-alive]
+[INFO ] ,47e64c5685bf1e36,47e64c5685bf1e36 2020-07-11 02:10:49.272 [reactor-http-nio-2] CafeController - Cache-Control : [max-age=0]
+[INFO ] ,47e64c5685bf1e36,47e64c5685bf1e36 2020-07-11 02:10:49.272 [reactor-http-nio-2] CafeController - Upgrade-Insecure-Requests : [1]
+[INFO ] ,47e64c5685bf1e36,47e64c5685bf1e36 2020-07-11 02:10:49.273 [reactor-http-nio-2] CafeController - User-Agent : [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36]
+[INFO ] ,47e64c5685bf1e36,47e64c5685bf1e36 2020-07-11 02:10:49.273 [reactor-http-nio-2] CafeController - Accept : [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9]
+[INFO ] ,47e64c5685bf1e36,47e64c5685bf1e36 2020-07-11 02:10:49.276 [reactor-http-nio-2] CafeController - Sec-Fetch-Site : [none]
+[INFO ] ,47e64c5685bf1e36,47e64c5685bf1e36 2020-07-11 02:10:49.276 [reactor-http-nio-2] CafeController - Sec-Fetch-Mode : [navigate]
+[INFO ] ,47e64c5685bf1e36,47e64c5685bf1e36 2020-07-11 02:10:49.276 [reactor-http-nio-2] CafeController - Sec-Fetch-User : [?1]
+[INFO ] ,47e64c5685bf1e36,47e64c5685bf1e36 2020-07-11 02:10:49.276 [reactor-http-nio-2] CafeController - Sec-Fetch-Dest : [document]
+[INFO ] ,47e64c5685bf1e36,47e64c5685bf1e36 2020-07-11 02:10:49.276 [reactor-http-nio-2] CafeController - Accept-Encoding : [gzip, deflate, br]
+[INFO ] ,47e64c5685bf1e36,47e64c5685bf1e36 2020-07-11 02:10:49.277 [reactor-http-nio-2] CafeController - Accept-Language : [ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7]
+[INFO ] ,47e64c5685bf1e36,47e64c5685bf1e36 2020-07-11 02:10:49.277 [reactor-http-nio-2] CafeController - Cafe MicroService End>>>>>>>>
+[INFO ] ,, 2020-07-11 02:12:25.702 [main] CafeSvcApplication - No active profile set, falling back to default profiles: default
+[INFO ] ,, 2020-07-11 02:12:26.387 [main] GenericScope - BeanFactory id=957ffef1-b5ce-3d92-a45d-9b55ba2fc46b
+[INFO ] ,, 2020-07-11 02:12:28.763 [main] NettyWebServer - Netty started on port(s): 8082
+[INFO ] ,, 2020-07-11 02:12:29.235 [main] CafeSvcApplication - Started CafeSvcApplication in 4.762 seconds (JVM running for 6.177)
+[INFO ] ,1ef8d9874c752e18,1ef8d9874c752e18 2020-07-11 02:12:44.542 [reactor-http-nio-2] CafeController - Cafe MicroService Start>>>>>>>>
+[INFO ] ,1ef8d9874c752e18,1ef8d9874c752e18 2020-07-11 02:12:44.547 [reactor-http-nio-2] CafeController - Host : [localhost:8082]
+[INFO ] ,1ef8d9874c752e18,1ef8d9874c752e18 2020-07-11 02:12:44.547 [reactor-http-nio-2] CafeController - Connection : [keep-alive]
+[INFO ] ,1ef8d9874c752e18,1ef8d9874c752e18 2020-07-11 02:12:44.548 [reactor-http-nio-2] CafeController - Cache-Control : [max-age=0]
+[INFO ] ,1ef8d9874c752e18,1ef8d9874c752e18 2020-07-11 02:12:44.548 [reactor-http-nio-2] CafeController - Upgrade-Insecure-Requests : [1]
+[INFO ] ,1ef8d9874c752e18,1ef8d9874c752e18 2020-07-11 02:12:44.554 [reactor-http-nio-2] CafeController - User-Agent : [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36]
+[INFO ] ,1ef8d9874c752e18,1ef8d9874c752e18 2020-07-11 02:12:44.554 [reactor-http-nio-2] CafeController - Accept : [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9]
+[INFO ] ,1ef8d9874c752e18,1ef8d9874c752e18 2020-07-11 02:12:44.555 [reactor-http-nio-2] CafeController - Sec-Fetch-Site : [none]
+[INFO ] ,1ef8d9874c752e18,1ef8d9874c752e18 2020-07-11 02:12:44.555 [reactor-http-nio-2] CafeController - Sec-Fetch-Mode : [navigate]
+[INFO ] ,1ef8d9874c752e18,1ef8d9874c752e18 2020-07-11 02:12:44.555 [reactor-http-nio-2] CafeController - Sec-Fetch-User : [?1]
+[INFO ] ,1ef8d9874c752e18,1ef8d9874c752e18 2020-07-11 02:12:44.555 [reactor-http-nio-2] CafeController - Sec-Fetch-Dest : [document]
+[INFO ] ,1ef8d9874c752e18,1ef8d9874c752e18 2020-07-11 02:12:44.555 [reactor-http-nio-2] CafeController - Accept-Encoding : [gzip, deflate, br]
+[INFO ] ,1ef8d9874c752e18,1ef8d9874c752e18 2020-07-11 02:12:44.561 [reactor-http-nio-2] CafeController - Accept-Language : [ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7]
+[INFO ] ,1ef8d9874c752e18,1ef8d9874c752e18 2020-07-11 02:12:44.561 [reactor-http-nio-2] CafeController - Cafe MicroService End>>>>>>>>
+[INFO ] ,, 2020-07-11 02:16:00.629 [main] CafeSvcApplication - No active profile set, falling back to default profiles: default
+[INFO ] ,, 2020-07-11 02:16:01.226 [main] GenericScope - BeanFactory id=957ffef1-b5ce-3d92-a45d-9b55ba2fc46b
+[INFO ] ,, 2020-07-11 02:16:03.595 [main] NettyWebServer - Netty started on port(s): 8082
+[INFO ] ,, 2020-07-11 02:16:04.100 [main] CafeSvcApplication - Started CafeSvcApplication in 4.625 seconds (JVM running for 5.973)
+[INFO ] ,0eb539eeb3cb0392,0eb539eeb3cb0392 2020-07-11 02:16:10.175 [reactor-http-nio-2] CafeController - Cafe MicroService Start>>>>>>>>
+[INFO ] ,0eb539eeb3cb0392,0eb539eeb3cb0392 2020-07-11 02:16:10.180 [reactor-http-nio-2] CafeController - Host : [localhost:8082]
+[INFO ] ,0eb539eeb3cb0392,0eb539eeb3cb0392 2020-07-11 02:16:10.186 [reactor-http-nio-2] CafeController - Connection : [keep-alive]
+[INFO ] ,0eb539eeb3cb0392,0eb539eeb3cb0392 2020-07-11 02:16:10.186 [reactor-http-nio-2] CafeController - Cache-Control : [max-age=0]
+[INFO ] ,0eb539eeb3cb0392,0eb539eeb3cb0392 2020-07-11 02:16:10.187 [reactor-http-nio-2] CafeController - Upgrade-Insecure-Requests : [1]
+[INFO ] ,0eb539eeb3cb0392,0eb539eeb3cb0392 2020-07-11 02:16:10.187 [reactor-http-nio-2] CafeController - User-Agent : [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36]
+[INFO ] ,0eb539eeb3cb0392,0eb539eeb3cb0392 2020-07-11 02:16:10.187 [reactor-http-nio-2] CafeController - Accept : [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9]
+[INFO ] ,0eb539eeb3cb0392,0eb539eeb3cb0392 2020-07-11 02:16:10.187 [reactor-http-nio-2] CafeController - Sec-Fetch-Site : [none]
+[INFO ] ,0eb539eeb3cb0392,0eb539eeb3cb0392 2020-07-11 02:16:10.187 [reactor-http-nio-2] CafeController - Sec-Fetch-Mode : [navigate]
+[INFO ] ,0eb539eeb3cb0392,0eb539eeb3cb0392 2020-07-11 02:16:10.192 [reactor-http-nio-2] CafeController - Sec-Fetch-User : [?1]
+[INFO ] ,0eb539eeb3cb0392,0eb539eeb3cb0392 2020-07-11 02:16:10.193 [reactor-http-nio-2] CafeController - Sec-Fetch-Dest : [document]
+[INFO ] ,0eb539eeb3cb0392,0eb539eeb3cb0392 2020-07-11 02:16:10.193 [reactor-http-nio-2] CafeController - Accept-Encoding : [gzip, deflate, br]
+[INFO ] ,0eb539eeb3cb0392,0eb539eeb3cb0392 2020-07-11 02:16:10.193 [reactor-http-nio-2] CafeController - Accept-Language : [ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7]
+[INFO ] ,0eb539eeb3cb0392,0eb539eeb3cb0392 2020-07-11 02:16:10.193 [reactor-http-nio-2] CafeController - Cafe MicroService End>>>>>>>>
+[INFO ] ,, 2020-07-11 02:18:33.218 [main] CafeSvcApplication - No active profile set, falling back to default profiles: default
+[INFO ] ,, 2020-07-11 02:18:33.887 [main] GenericScope - BeanFactory id=957ffef1-b5ce-3d92-a45d-9b55ba2fc46b
+[INFO ] ,, 2020-07-11 02:18:36.410 [main] NettyWebServer - Netty started on port(s): 8082
+[INFO ] ,, 2020-07-11 02:18:36.989 [main] CafeSvcApplication - Started CafeSvcApplication in 4.997 seconds (JVM running for 6.35)
+[INFO ] ,db9da5af2405d3a9,db9da5af2405d3a9 2020-07-11 02:18:38.048 [reactor-http-nio-2] CafeController - Cafe MicroService Start>>>>>>>>
+[INFO ] ,db9da5af2405d3a9,db9da5af2405d3a9 2020-07-11 02:18:38.052 [reactor-http-nio-2] CafeController - Host : [localhost:8082]
+[INFO ] ,db9da5af2405d3a9,db9da5af2405d3a9 2020-07-11 02:18:38.052 [reactor-http-nio-2] CafeController - Connection : [keep-alive]
+[INFO ] ,db9da5af2405d3a9,db9da5af2405d3a9 2020-07-11 02:18:38.053 [reactor-http-nio-2] CafeController - Cache-Control : [max-age=0]
+[INFO ] ,db9da5af2405d3a9,db9da5af2405d3a9 2020-07-11 02:18:38.053 [reactor-http-nio-2] CafeController - Upgrade-Insecure-Requests : [1]
+[INFO ] ,db9da5af2405d3a9,db9da5af2405d3a9 2020-07-11 02:18:38.053 [reactor-http-nio-2] CafeController - User-Agent : [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36]
+[INFO ] ,db9da5af2405d3a9,db9da5af2405d3a9 2020-07-11 02:18:38.053 [reactor-http-nio-2] CafeController - Accept : [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9]
+[INFO ] ,db9da5af2405d3a9,db9da5af2405d3a9 2020-07-11 02:18:38.056 [reactor-http-nio-2] CafeController - Sec-Fetch-Site : [none]
+[INFO ] ,db9da5af2405d3a9,db9da5af2405d3a9 2020-07-11 02:18:38.056 [reactor-http-nio-2] CafeController - Sec-Fetch-Mode : [navigate]
+[INFO ] ,db9da5af2405d3a9,db9da5af2405d3a9 2020-07-11 02:18:38.057 [reactor-http-nio-2] CafeController - Sec-Fetch-User : [?1]
+[INFO ] ,db9da5af2405d3a9,db9da5af2405d3a9 2020-07-11 02:18:38.057 [reactor-http-nio-2] CafeController - Sec-Fetch-Dest : [document]
+[INFO ] ,db9da5af2405d3a9,db9da5af2405d3a9 2020-07-11 02:18:38.057 [reactor-http-nio-2] CafeController - Accept-Encoding : [gzip, deflate, br]
+[INFO ] ,db9da5af2405d3a9,db9da5af2405d3a9 2020-07-11 02:18:38.057 [reactor-http-nio-2] CafeController - Accept-Language : [ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7]
+[INFO ] ,db9da5af2405d3a9,db9da5af2405d3a9 2020-07-11 02:18:38.058 [reactor-http-nio-2] CafeController - Cafe MicroService End>>>>>>>>
+[INFO ] ,, 2020-07-11 02:18:46.871 [main] CafeSvcApplication - No active profile set, falling back to default profiles: default
+[INFO ] ,, 2020-07-11 02:18:47.451 [main] GenericScope - BeanFactory id=957ffef1-b5ce-3d92-a45d-9b55ba2fc46b
+[INFO ] ,, 2020-07-11 02:18:49.708 [main] NettyWebServer - Netty started on port(s): 8082
+[INFO ] ,, 2020-07-11 02:18:50.173 [main] CafeSvcApplication - Started CafeSvcApplication in 4.484 seconds (JVM running for 5.85)
+[INFO ] ,df8f72b7934ea2a7,df8f72b7934ea2a7 2020-07-11 02:18:55.006 [reactor-http-nio-2] CafeController - Cafe MicroService Start>>>>>>>>
+[INFO ] ,df8f72b7934ea2a7,df8f72b7934ea2a7 2020-07-11 02:18:55.011 [reactor-http-nio-2] CafeController - Host : [localhost:8082]
+[INFO ] ,df8f72b7934ea2a7,df8f72b7934ea2a7 2020-07-11 02:18:55.011 [reactor-http-nio-2] CafeController - Connection : [keep-alive]
+[INFO ] ,df8f72b7934ea2a7,df8f72b7934ea2a7 2020-07-11 02:18:55.011 [reactor-http-nio-2] CafeController - Cache-Control : [max-age=0]
+[INFO ] ,df8f72b7934ea2a7,df8f72b7934ea2a7 2020-07-11 02:18:55.011 [reactor-http-nio-2] CafeController - Upgrade-Insecure-Requests : [1]
+[INFO ] ,df8f72b7934ea2a7,df8f72b7934ea2a7 2020-07-11 02:18:55.016 [reactor-http-nio-2] CafeController - User-Agent : [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36]
+[INFO ] ,df8f72b7934ea2a7,df8f72b7934ea2a7 2020-07-11 02:18:55.017 [reactor-http-nio-2] CafeController - Accept : [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9]
+[INFO ] ,df8f72b7934ea2a7,df8f72b7934ea2a7 2020-07-11 02:18:55.018 [reactor-http-nio-2] CafeController - Sec-Fetch-Site : [none]
+[INFO ] ,df8f72b7934ea2a7,df8f72b7934ea2a7 2020-07-11 02:18:55.018 [reactor-http-nio-2] CafeController - Sec-Fetch-Mode : [navigate]
+[INFO ] ,df8f72b7934ea2a7,df8f72b7934ea2a7 2020-07-11 02:18:55.019 [reactor-http-nio-2] CafeController - Sec-Fetch-User : [?1]
+[INFO ] ,df8f72b7934ea2a7,df8f72b7934ea2a7 2020-07-11 02:18:55.019 [reactor-http-nio-2] CafeController - Sec-Fetch-Dest : [document]
+[INFO ] ,df8f72b7934ea2a7,df8f72b7934ea2a7 2020-07-11 02:18:55.019 [reactor-http-nio-2] CafeController - Accept-Encoding : [gzip, deflate, br]
+[INFO ] ,df8f72b7934ea2a7,df8f72b7934ea2a7 2020-07-11 02:18:55.024 [reactor-http-nio-2] CafeController - Accept-Language : [ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7]
+[INFO ] ,df8f72b7934ea2a7,df8f72b7934ea2a7 2020-07-11 02:18:55.024 [reactor-http-nio-2] CafeController - Cafe MicroService End>>>>>>>>
+[INFO ] ,, 2020-07-11 02:20:04.402 [main] CafeSvcApplication - No active profile set, falling back to default profiles: default
+[INFO ] ,, 2020-07-11 02:20:04.959 [main] GenericScope - BeanFactory id=957ffef1-b5ce-3d92-a45d-9b55ba2fc46b
+[INFO ] ,, 2020-07-11 02:20:07.352 [main] NettyWebServer - Netty started on port(s): 8082
+[INFO ] ,, 2020-07-11 02:20:07.869 [main] CafeSvcApplication - Started CafeSvcApplication in 4.577 seconds (JVM running for 5.921)
+[INFO ] ,22615f7b4ab152eb,22615f7b4ab152eb 2020-07-11 02:20:11.370 [reactor-http-nio-2] CafeController - Cafe MicroService Start>>>>>>>>
+[INFO ] ,22615f7b4ab152eb,22615f7b4ab152eb 2020-07-11 02:20:11.374 [reactor-http-nio-2] CafeController - Host : [localhost:8082]
+[INFO ] ,22615f7b4ab152eb,22615f7b4ab152eb 2020-07-11 02:20:11.381 [reactor-http-nio-2] CafeController - Connection : [keep-alive]
+[INFO ] ,22615f7b4ab152eb,22615f7b4ab152eb 2020-07-11 02:20:11.382 [reactor-http-nio-2] CafeController - Cache-Control : [max-age=0]
+[INFO ] ,22615f7b4ab152eb,22615f7b4ab152eb 2020-07-11 02:20:11.382 [reactor-http-nio-2] CafeController - Upgrade-Insecure-Requests : [1]
+[INFO ] ,22615f7b4ab152eb,22615f7b4ab152eb 2020-07-11 02:20:11.382 [reactor-http-nio-2] CafeController - User-Agent : [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36]
+[INFO ] ,22615f7b4ab152eb,22615f7b4ab152eb 2020-07-11 02:20:11.385 [reactor-http-nio-2] CafeController - Accept : [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9]
+[INFO ] ,22615f7b4ab152eb,22615f7b4ab152eb 2020-07-11 02:20:11.385 [reactor-http-nio-2] CafeController - Sec-Fetch-Site : [none]
+[INFO ] ,22615f7b4ab152eb,22615f7b4ab152eb 2020-07-11 02:20:11.385 [reactor-http-nio-2] CafeController - Sec-Fetch-Mode : [navigate]
+[INFO ] ,22615f7b4ab152eb,22615f7b4ab152eb 2020-07-11 02:20:11.388 [reactor-http-nio-2] CafeController - Sec-Fetch-User : [?1]
+[INFO ] ,22615f7b4ab152eb,22615f7b4ab152eb 2020-07-11 02:20:11.388 [reactor-http-nio-2] CafeController - Sec-Fetch-Dest : [document]
+[INFO ] ,22615f7b4ab152eb,22615f7b4ab152eb 2020-07-11 02:20:11.389 [reactor-http-nio-2] CafeController - Accept-Encoding : [gzip, deflate, br]
+[INFO ] ,22615f7b4ab152eb,22615f7b4ab152eb 2020-07-11 02:20:11.389 [reactor-http-nio-2] CafeController - Accept-Language : [ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7]
+[INFO ] ,22615f7b4ab152eb,22615f7b4ab152eb 2020-07-11 02:20:11.389 [reactor-http-nio-2] CafeController - Cafe MicroService End>>>>>>>>
+[INFO ] ,, 2020-07-11 02:20:40.888 [main] CafeSvcApplication - No active profile set, falling back to default profiles: default
+[INFO ] ,, 2020-07-11 02:20:41.480 [main] GenericScope - BeanFactory id=957ffef1-b5ce-3d92-a45d-9b55ba2fc46b
+[INFO ] ,, 2020-07-11 02:20:43.886 [main] NettyWebServer - Netty started on port(s): 8082
+[INFO ] ,, 2020-07-11 02:20:44.366 [main] CafeSvcApplication - Started CafeSvcApplication in 4.629 seconds (JVM running for 5.871)
+[INFO ] ,e0b5d78cd2010f07,e0b5d78cd2010f07 2020-07-11 02:20:49.268 [reactor-http-nio-2] CafeController - Cafe MicroService Start>>>>>>>>
+[INFO ] ,e0b5d78cd2010f07,e0b5d78cd2010f07 2020-07-11 02:20:49.272 [reactor-http-nio-2] CafeController - Host : [localhost:8082]
+[INFO ] ,e0b5d78cd2010f07,e0b5d78cd2010f07 2020-07-11 02:20:49.272 [reactor-http-nio-2] CafeController - Connection : [keep-alive]
+[INFO ] ,e0b5d78cd2010f07,e0b5d78cd2010f07 2020-07-11 02:20:49.273 [reactor-http-nio-2] CafeController - Cache-Control : [max-age=0]
+[INFO ] ,e0b5d78cd2010f07,e0b5d78cd2010f07 2020-07-11 02:20:49.273 [reactor-http-nio-2] CafeController - Upgrade-Insecure-Requests : [1]
+[INFO ] ,e0b5d78cd2010f07,e0b5d78cd2010f07 2020-07-11 02:20:49.273 [reactor-http-nio-2] CafeController - User-Agent : [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36]
+[INFO ] ,e0b5d78cd2010f07,e0b5d78cd2010f07 2020-07-11 02:20:49.273 [reactor-http-nio-2] CafeController - Accept : [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9]
+[INFO ] ,e0b5d78cd2010f07,e0b5d78cd2010f07 2020-07-11 02:20:49.276 [reactor-http-nio-2] CafeController - Sec-Fetch-Site : [none]
+[INFO ] ,e0b5d78cd2010f07,e0b5d78cd2010f07 2020-07-11 02:20:49.276 [reactor-http-nio-2] CafeController - Sec-Fetch-Mode : [navigate]
+[INFO ] ,e0b5d78cd2010f07,e0b5d78cd2010f07 2020-07-11 02:20:49.276 [reactor-http-nio-2] CafeController - Sec-Fetch-User : [?1]
+[INFO ] ,e0b5d78cd2010f07,e0b5d78cd2010f07 2020-07-11 02:20:49.277 [reactor-http-nio-2] CafeController - Sec-Fetch-Dest : [document]
+[INFO ] ,e0b5d78cd2010f07,e0b5d78cd2010f07 2020-07-11 02:20:49.277 [reactor-http-nio-2] CafeController - Accept-Encoding : [gzip, deflate, br]
+[INFO ] ,e0b5d78cd2010f07,e0b5d78cd2010f07 2020-07-11 02:20:49.277 [reactor-http-nio-2] CafeController - Accept-Language : [ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7]
+[INFO ] ,e0b5d78cd2010f07,e0b5d78cd2010f07 2020-07-11 02:20:49.277 [reactor-http-nio-2] CafeController - Cafe MicroService End>>>>>>>>
+[INFO ] ,, 2020-07-11 02:21:33.440 [main] CafeSvcApplication - No active profile set, falling back to default profiles: default
+[INFO ] ,, 2020-07-11 02:21:34.053 [main] GenericScope - BeanFactory id=957ffef1-b5ce-3d92-a45d-9b55ba2fc46b
+[INFO ] ,, 2020-07-11 02:21:36.414 [main] NettyWebServer - Netty started on port(s): 8082
+[INFO ] ,, 2020-07-11 02:21:36.896 [main] CafeSvcApplication - Started CafeSvcApplication in 4.657 seconds (JVM running for 6.072)
+[INFO ] ,01b9ad033d154230,01b9ad033d154230 2020-07-11 02:21:38.456 [reactor-http-nio-2] CafeController - Cafe MicroService Start>>>>>>>>
+[INFO ] ,01b9ad033d154230,01b9ad033d154230 2020-07-11 02:21:38.460 [reactor-http-nio-2] CafeController - Host : [localhost:8082]
+[INFO ] ,01b9ad033d154230,01b9ad033d154230 2020-07-11 02:21:38.460 [reactor-http-nio-2] CafeController - Connection : [keep-alive]
+[INFO ] ,01b9ad033d154230,01b9ad033d154230 2020-07-11 02:21:38.461 [reactor-http-nio-2] CafeController - Cache-Control : [max-age=0]
+[INFO ] ,01b9ad033d154230,01b9ad033d154230 2020-07-11 02:21:38.461 [reactor-http-nio-2] CafeController - Upgrade-Insecure-Requests : [1]
+[INFO ] ,01b9ad033d154230,01b9ad033d154230 2020-07-11 02:21:38.468 [reactor-http-nio-2] CafeController - User-Agent : [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36]
+[INFO ] ,01b9ad033d154230,01b9ad033d154230 2020-07-11 02:21:38.468 [reactor-http-nio-2] CafeController - Accept : [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9]
+[INFO ] ,01b9ad033d154230,01b9ad033d154230 2020-07-11 02:21:38.468 [reactor-http-nio-2] CafeController - Sec-Fetch-Site : [none]
+[INFO ] ,01b9ad033d154230,01b9ad033d154230 2020-07-11 02:21:38.469 [reactor-http-nio-2] CafeController - Sec-Fetch-Mode : [navigate]
+[INFO ] ,01b9ad033d154230,01b9ad033d154230 2020-07-11 02:21:38.469 [reactor-http-nio-2] CafeController - Sec-Fetch-User : [?1]
+[INFO ] ,01b9ad033d154230,01b9ad033d154230 2020-07-11 02:21:38.469 [reactor-http-nio-2] CafeController - Sec-Fetch-Dest : [document]
+[INFO ] ,01b9ad033d154230,01b9ad033d154230 2020-07-11 02:21:38.469 [reactor-http-nio-2] CafeController - Accept-Encoding : [gzip, deflate, br]
+[INFO ] ,01b9ad033d154230,01b9ad033d154230 2020-07-11 02:21:38.475 [reactor-http-nio-2] CafeController - Accept-Language : [ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7]
+[INFO ] ,01b9ad033d154230,01b9ad033d154230 2020-07-11 02:21:38.475 [reactor-http-nio-2] CafeController - Cafe MicroService End>>>>>>>>
+[INFO ] ,, 2020-07-11 02:22:32.629 [main] CafeSvcApplication - No active profile set, falling back to default profiles: default
+[INFO ] ,, 2020-07-11 02:22:33.262 [main] GenericScope - BeanFactory id=957ffef1-b5ce-3d92-a45d-9b55ba2fc46b
+[INFO ] ,, 2020-07-11 02:22:35.546 [main] NettyWebServer - Netty started on port(s): 8082
+[INFO ] ,, 2020-07-11 02:22:36.028 [main] CafeSvcApplication - Started CafeSvcApplication in 4.536 seconds (JVM running for 5.838)
+[INFO ] ,b24ae524b5f20c7d,b24ae524b5f20c7d 2020-07-11 02:22:39.029 [reactor-http-nio-2] CafeController - Cafe MicroService Start>>>>>>>>
+[INFO ] ,b24ae524b5f20c7d,b24ae524b5f20c7d 2020-07-11 02:22:39.034 [reactor-http-nio-2] CafeController - Host : [localhost:8082]
+[INFO ] ,b24ae524b5f20c7d,b24ae524b5f20c7d 2020-07-11 02:22:39.040 [reactor-http-nio-2] CafeController - Connection : [keep-alive]
+[INFO ] ,b24ae524b5f20c7d,b24ae524b5f20c7d 2020-07-11 02:22:39.040 [reactor-http-nio-2] CafeController - Cache-Control : [max-age=0]
+[INFO ] ,b24ae524b5f20c7d,b24ae524b5f20c7d 2020-07-11 02:22:39.041 [reactor-http-nio-2] CafeController - Upgrade-Insecure-Requests : [1]
+[INFO ] ,b24ae524b5f20c7d,b24ae524b5f20c7d 2020-07-11 02:22:39.041 [reactor-http-nio-2] CafeController - User-Agent : [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36]
+[INFO ] ,b24ae524b5f20c7d,b24ae524b5f20c7d 2020-07-11 02:22:39.041 [reactor-http-nio-2] CafeController - Accept : [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9]
+[INFO ] ,b24ae524b5f20c7d,b24ae524b5f20c7d 2020-07-11 02:22:39.042 [reactor-http-nio-2] CafeController - Sec-Fetch-Site : [none]
+[INFO ] ,b24ae524b5f20c7d,b24ae524b5f20c7d 2020-07-11 02:22:39.042 [reactor-http-nio-2] CafeController - Sec-Fetch-Mode : [navigate]
+[INFO ] ,b24ae524b5f20c7d,b24ae524b5f20c7d 2020-07-11 02:22:39.047 [reactor-http-nio-2] CafeController - Sec-Fetch-User : [?1]
+[INFO ] ,b24ae524b5f20c7d,b24ae524b5f20c7d 2020-07-11 02:22:39.047 [reactor-http-nio-2] CafeController - Sec-Fetch-Dest : [document]
+[INFO ] ,b24ae524b5f20c7d,b24ae524b5f20c7d 2020-07-11 02:22:39.047 [reactor-http-nio-2] CafeController - Accept-Encoding : [gzip, deflate, br]
+[INFO ] ,b24ae524b5f20c7d,b24ae524b5f20c7d 2020-07-11 02:22:39.047 [reactor-http-nio-2] CafeController - Accept-Language : [ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7]
+[INFO ] ,b24ae524b5f20c7d,b24ae524b5f20c7d 2020-07-11 02:22:39.048 [reactor-http-nio-2] CafeController - Cafe MicroService End>>>>>>>>
+[INFO ] ,, 2020-07-11 02:23:19.495 [main] CafeSvcApplication - No active profile set, falling back to default profiles: default
+[INFO ] ,, 2020-07-11 02:23:20.072 [main] GenericScope - BeanFactory id=957ffef1-b5ce-3d92-a45d-9b55ba2fc46b
+[INFO ] ,, 2020-07-11 02:23:22.496 [main] NettyWebServer - Netty started on port(s): 8082
+[INFO ] ,, 2020-07-11 02:23:23.003 [main] CafeSvcApplication - Started CafeSvcApplication in 4.655 seconds (JVM running for 6.055)
+[INFO ] ,b00951c55852c23f,b00951c55852c23f 2020-07-11 02:23:29.660 [reactor-http-nio-2] CafeController - Cafe MicroService Start>>>>>>>>
+[INFO ] ,b00951c55852c23f,b00951c55852c23f 2020-07-11 02:23:29.664 [reactor-http-nio-2] CafeController - Host : [localhost:8082]
+[INFO ] ,b00951c55852c23f,b00951c55852c23f 2020-07-11 02:23:29.664 [reactor-http-nio-2] CafeController - Connection : [keep-alive]
+[INFO ] ,b00951c55852c23f,b00951c55852c23f 2020-07-11 02:23:29.664 [reactor-http-nio-2] CafeController - Cache-Control : [max-age=0]
+[INFO ] ,b00951c55852c23f,b00951c55852c23f 2020-07-11 02:23:29.665 [reactor-http-nio-2] CafeController - Upgrade-Insecure-Requests : [1]
+[INFO ] ,b00951c55852c23f,b00951c55852c23f 2020-07-11 02:23:29.665 [reactor-http-nio-2] CafeController - User-Agent : [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36]
+[INFO ] ,b00951c55852c23f,b00951c55852c23f 2020-07-11 02:23:29.665 [reactor-http-nio-2] CafeController - Accept : [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9]
+[INFO ] ,b00951c55852c23f,b00951c55852c23f 2020-07-11 02:23:29.668 [reactor-http-nio-2] CafeController - Sec-Fetch-Site : [none]
+[INFO ] ,b00951c55852c23f,b00951c55852c23f 2020-07-11 02:23:29.668 [reactor-http-nio-2] CafeController - Sec-Fetch-Mode : [navigate]
+[INFO ] ,b00951c55852c23f,b00951c55852c23f 2020-07-11 02:23:29.668 [reactor-http-nio-2] CafeController - Sec-Fetch-User : [?1]
+[INFO ] ,b00951c55852c23f,b00951c55852c23f 2020-07-11 02:23:29.669 [reactor-http-nio-2] CafeController - Sec-Fetch-Dest : [document]
+[INFO ] ,b00951c55852c23f,b00951c55852c23f 2020-07-11 02:23:29.669 [reactor-http-nio-2] CafeController - Accept-Encoding : [gzip, deflate, br]
+[INFO ] ,b00951c55852c23f,b00951c55852c23f 2020-07-11 02:23:29.669 [reactor-http-nio-2] CafeController - Accept-Language : [ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7]
+[INFO ] ,b00951c55852c23f,b00951c55852c23f 2020-07-11 02:23:29.669 [reactor-http-nio-2] CafeController - Cafe MicroService End>>>>>>>>
+[INFO ] ,, 2020-07-11 02:23:47.762 [main] CafeSvcApplication - No active profile set, falling back to default profiles: default
+[INFO ] ,, 2020-07-11 02:23:48.363 [main] GenericScope - BeanFactory id=957ffef1-b5ce-3d92-a45d-9b55ba2fc46b
+[INFO ] ,, 2020-07-11 02:23:50.668 [main] NettyWebServer - Netty started on port(s): 8082
+[INFO ] ,, 2020-07-11 02:23:51.152 [main] CafeSvcApplication - Started CafeSvcApplication in 4.57 seconds (JVM running for 5.868)
+[INFO ] ,, 2020-07-11 02:24:09.945 [main] CafeSvcApplication - No active profile set, falling back to default profiles: default
+[INFO ] ,, 2020-07-11 02:24:10.531 [main] GenericScope - BeanFactory id=957ffef1-b5ce-3d92-a45d-9b55ba2fc46b
+[INFO ] ,, 2020-07-11 02:24:12.796 [main] NettyWebServer - Netty started on port(s): 8082
+[INFO ] ,, 2020-07-11 02:24:13.277 [main] CafeSvcApplication - Started CafeSvcApplication in 4.469 seconds (JVM running for 5.748)
+[INFO ] ,8355f4593b447df7,8355f4593b447df7 2020-07-11 02:24:14.999 [reactor-http-nio-2] CafeController - Cafe MicroService Start>>>>>>>>
+[INFO ] ,8355f4593b447df7,8355f4593b447df7 2020-07-11 02:24:15.010 [reactor-http-nio-2] CafeController - Host : [localhost:8082]
+[INFO ] ,8355f4593b447df7,8355f4593b447df7 2020-07-11 02:24:15.011 [reactor-http-nio-2] CafeController - Connection : [keep-alive]
+[INFO ] ,8355f4593b447df7,8355f4593b447df7 2020-07-11 02:24:15.011 [reactor-http-nio-2] CafeController - Cache-Control : [max-age=0]
+[INFO ] ,8355f4593b447df7,8355f4593b447df7 2020-07-11 02:24:15.011 [reactor-http-nio-2] CafeController - Upgrade-Insecure-Requests : [1]
+[INFO ] ,8355f4593b447df7,8355f4593b447df7 2020-07-11 02:24:15.012 [reactor-http-nio-2] CafeController - User-Agent : [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36]
+[INFO ] ,8355f4593b447df7,8355f4593b447df7 2020-07-11 02:24:15.012 [reactor-http-nio-2] CafeController - Accept : [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9]
+[INFO ] ,8355f4593b447df7,8355f4593b447df7 2020-07-11 02:24:15.012 [reactor-http-nio-2] CafeController - Sec-Fetch-Site : [none]
+[INFO ] ,8355f4593b447df7,8355f4593b447df7 2020-07-11 02:24:15.015 [reactor-http-nio-2] CafeController - Sec-Fetch-Mode : [navigate]
+[INFO ] ,8355f4593b447df7,8355f4593b447df7 2020-07-11 02:24:15.015 [reactor-http-nio-2] CafeController - Sec-Fetch-User : [?1]
+[INFO ] ,8355f4593b447df7,8355f4593b447df7 2020-07-11 02:24:15.015 [reactor-http-nio-2] CafeController - Sec-Fetch-Dest : [document]
+[INFO ] ,8355f4593b447df7,8355f4593b447df7 2020-07-11 02:24:15.015 [reactor-http-nio-2] CafeController - Accept-Encoding : [gzip, deflate, br]
+[INFO ] ,8355f4593b447df7,8355f4593b447df7 2020-07-11 02:24:15.016 [reactor-http-nio-2] CafeController - Accept-Language : [ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7]
+[INFO ] ,8355f4593b447df7,8355f4593b447df7 2020-07-11 02:24:15.016 [reactor-http-nio-2] CafeController - Cafe MicroService End>>>>>>>>
+[INFO ] ,, 2020-07-11 02:29:31.570 [main] CafeSvcApplication - No active profile set, falling back to default profiles: default
+[INFO ] ,, 2020-07-11 02:29:32.144 [main] GenericScope - BeanFactory id=957ffef1-b5ce-3d92-a45d-9b55ba2fc46b
+[INFO ] ,, 2020-07-11 02:29:34.406 [main] NettyWebServer - Netty started on port(s): 8082
+[INFO ] ,, 2020-07-11 02:29:34.883 [main] CafeSvcApplication - Started CafeSvcApplication in 4.524 seconds (JVM running for 5.859)
+[INFO ] ,d5ad7d5c9aa8fd5c,d5ad7d5c9aa8fd5c 2020-07-11 02:29:45.819 [reactor-http-nio-2] CafeController - Cafe MicroService Start>>>>>>>>
+[INFO ] ,d5ad7d5c9aa8fd5c,d5ad7d5c9aa8fd5c 2020-07-11 02:29:45.823 [reactor-http-nio-2] CafeController - Host : [localhost:8082]
+[INFO ] ,d5ad7d5c9aa8fd5c,d5ad7d5c9aa8fd5c 2020-07-11 02:29:45.823 [reactor-http-nio-2] CafeController - Connection : [keep-alive]
+[INFO ] ,d5ad7d5c9aa8fd5c,d5ad7d5c9aa8fd5c 2020-07-11 02:29:45.823 [reactor-http-nio-2] CafeController - Cache-Control : [max-age=0]
+[INFO ] ,d5ad7d5c9aa8fd5c,d5ad7d5c9aa8fd5c 2020-07-11 02:29:45.823 [reactor-http-nio-2] CafeController - Upgrade-Insecure-Requests : [1]
+[INFO ] ,d5ad7d5c9aa8fd5c,d5ad7d5c9aa8fd5c 2020-07-11 02:29:45.823 [reactor-http-nio-2] CafeController - User-Agent : [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36]
+[INFO ] ,d5ad7d5c9aa8fd5c,d5ad7d5c9aa8fd5c 2020-07-11 02:29:45.824 [reactor-http-nio-2] CafeController - Accept : [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9]
+[INFO ] ,d5ad7d5c9aa8fd5c,d5ad7d5c9aa8fd5c 2020-07-11 02:29:45.827 [reactor-http-nio-2] CafeController - Sec-Fetch-Site : [none]
+[INFO ] ,d5ad7d5c9aa8fd5c,d5ad7d5c9aa8fd5c 2020-07-11 02:29:45.827 [reactor-http-nio-2] CafeController - Sec-Fetch-Mode : [navigate]
+[INFO ] ,d5ad7d5c9aa8fd5c,d5ad7d5c9aa8fd5c 2020-07-11 02:29:45.828 [reactor-http-nio-2] CafeController - Sec-Fetch-User : [?1]
+[INFO ] ,d5ad7d5c9aa8fd5c,d5ad7d5c9aa8fd5c 2020-07-11 02:29:45.828 [reactor-http-nio-2] CafeController - Sec-Fetch-Dest : [document]
+[INFO ] ,d5ad7d5c9aa8fd5c,d5ad7d5c9aa8fd5c 2020-07-11 02:29:45.828 [reactor-http-nio-2] CafeController - Accept-Encoding : [gzip, deflate, br]
+[INFO ] ,d5ad7d5c9aa8fd5c,d5ad7d5c9aa8fd5c 2020-07-11 02:29:45.828 [reactor-http-nio-2] CafeController - Accept-Language : [ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7]
+[INFO ] ,d5ad7d5c9aa8fd5c,d5ad7d5c9aa8fd5c 2020-07-11 02:29:45.829 [reactor-http-nio-2] CafeController - Cafe MicroService End>>>>>>>>
+[INFO ] ,, 2020-07-11 02:30:07.306 [main] CafeSvcApplication - No active profile set, falling back to default profiles: default
+[INFO ] ,, 2020-07-11 02:30:07.886 [main] GenericScope - BeanFactory id=957ffef1-b5ce-3d92-a45d-9b55ba2fc46b
+[INFO ] ,, 2020-07-11 02:30:10.273 [main] NettyWebServer - Netty started on port(s): 8082
+[INFO ] ,, 2020-07-11 02:30:10.812 [main] CafeSvcApplication - Started CafeSvcApplication in 4.672 seconds (JVM running for 6.051)
+[INFO ] ,a9598fef5c29cf5b,a9598fef5c29cf5b 2020-07-11 02:30:12.179 [reactor-http-nio-2] CafeController - Cafe MicroService Start>>>>>>>>
+[INFO ] ,a9598fef5c29cf5b,a9598fef5c29cf5b 2020-07-11 02:30:12.182 [reactor-http-nio-2] CafeController - Host : [localhost:8082]
+[INFO ] ,a9598fef5c29cf5b,a9598fef5c29cf5b 2020-07-11 02:30:12.182 [reactor-http-nio-2] CafeController - Connection : [keep-alive]
+[INFO ] ,a9598fef5c29cf5b,a9598fef5c29cf5b 2020-07-11 02:30:12.182 [reactor-http-nio-2] CafeController - Cache-Control : [max-age=0]
+[INFO ] ,a9598fef5c29cf5b,a9598fef5c29cf5b 2020-07-11 02:30:12.183 [reactor-http-nio-2] CafeController - Upgrade-Insecure-Requests : [1]
+[INFO ] ,a9598fef5c29cf5b,a9598fef5c29cf5b 2020-07-11 02:30:12.190 [reactor-http-nio-2] CafeController - User-Agent : [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36]
+[INFO ] ,a9598fef5c29cf5b,a9598fef5c29cf5b 2020-07-11 02:30:12.190 [reactor-http-nio-2] CafeController - Accept : [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9]
+[INFO ] ,a9598fef5c29cf5b,a9598fef5c29cf5b 2020-07-11 02:30:12.190 [reactor-http-nio-2] CafeController - Sec-Fetch-Site : [none]
+[INFO ] ,a9598fef5c29cf5b,a9598fef5c29cf5b 2020-07-11 02:30:12.191 [reactor-http-nio-2] CafeController - Sec-Fetch-Mode : [navigate]
+[INFO ] ,a9598fef5c29cf5b,a9598fef5c29cf5b 2020-07-11 02:30:12.191 [reactor-http-nio-2] CafeController - Sec-Fetch-User : [?1]
+[INFO ] ,a9598fef5c29cf5b,a9598fef5c29cf5b 2020-07-11 02:30:12.191 [reactor-http-nio-2] CafeController - Sec-Fetch-Dest : [document]
+[INFO ] ,a9598fef5c29cf5b,a9598fef5c29cf5b 2020-07-11 02:30:12.191 [reactor-http-nio-2] CafeController - Accept-Encoding : [gzip, deflate, br]
+[INFO ] ,a9598fef5c29cf5b,a9598fef5c29cf5b 2020-07-11 02:30:12.196 [reactor-http-nio-2] CafeController - Accept-Language : [ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7]
+[INFO ] ,a9598fef5c29cf5b,a9598fef5c29cf5b 2020-07-11 02:30:12.196 [reactor-http-nio-2] CafeController - Cafe MicroService End>>>>>>>>
+[INFO ] ,, 2020-07-11 02:30:23.337 [main] CafeSvcApplication - No active profile set, falling back to default profiles: default
+[INFO ] ,, 2020-07-11 02:30:23.916 [main] GenericScope - BeanFactory id=957ffef1-b5ce-3d92-a45d-9b55ba2fc46b
+[INFO ] ,, 2020-07-11 02:30:26.239 [main] NettyWebServer - Netty started on port(s): 8082
+[INFO ] ,, 2020-07-11 02:30:26.755 [main] CafeSvcApplication - Started CafeSvcApplication in 4.549 seconds (JVM running for 5.958)
+[INFO ] ,366b961fa9a260a9,366b961fa9a260a9 2020-07-11 02:30:29.060 [reactor-http-nio-2] CafeController - Cafe MicroService Start>>>>>>>>
+[INFO ] ,366b961fa9a260a9,366b961fa9a260a9 2020-07-11 02:30:29.064 [reactor-http-nio-2] CafeController - Host : [localhost:8082]
+[INFO ] ,366b961fa9a260a9,366b961fa9a260a9 2020-07-11 02:30:29.071 [reactor-http-nio-2] CafeController - Connection : [keep-alive]
+[INFO ] ,366b961fa9a260a9,366b961fa9a260a9 2020-07-11 02:30:29.072 [reactor-http-nio-2] CafeController - Cache-Control : [max-age=0]
+[INFO ] ,366b961fa9a260a9,366b961fa9a260a9 2020-07-11 02:30:29.072 [reactor-http-nio-2] CafeController - Upgrade-Insecure-Requests : [1]
+[INFO ] ,366b961fa9a260a9,366b961fa9a260a9 2020-07-11 02:30:29.072 [reactor-http-nio-2] CafeController - User-Agent : [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36]
+[INFO ] ,366b961fa9a260a9,366b961fa9a260a9 2020-07-11 02:30:29.073 [reactor-http-nio-2] CafeController - Accept : [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9]
+[INFO ] ,366b961fa9a260a9,366b961fa9a260a9 2020-07-11 02:30:29.073 [reactor-http-nio-2] CafeController - Sec-Fetch-Site : [none]
+[INFO ] ,366b961fa9a260a9,366b961fa9a260a9 2020-07-11 02:30:29.073 [reactor-http-nio-2] CafeController - Sec-Fetch-Mode : [navigate]
+[INFO ] ,366b961fa9a260a9,366b961fa9a260a9 2020-07-11 02:30:29.079 [reactor-http-nio-2] CafeController - Sec-Fetch-User : [?1]
+[INFO ] ,366b961fa9a260a9,366b961fa9a260a9 2020-07-11 02:30:29.079 [reactor-http-nio-2] CafeController - Sec-Fetch-Dest : [document]
+[INFO ] ,366b961fa9a260a9,366b961fa9a260a9 2020-07-11 02:30:29.080 [reactor-http-nio-2] CafeController - Accept-Encoding : [gzip, deflate, br]
+[INFO ] ,366b961fa9a260a9,366b961fa9a260a9 2020-07-11 02:30:29.080 [reactor-http-nio-2] CafeController - Accept-Language : [ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7]
+[INFO ] ,366b961fa9a260a9,366b961fa9a260a9 2020-07-11 02:30:29.080 [reactor-http-nio-2] CafeController - Cafe MicroService End>>>>>>>>
+[INFO ] ,, 2020-07-11 02:31:05.248 [main] CafeSvcApplication - No active profile set, falling back to default profiles: default
+[INFO ] ,, 2020-07-11 02:31:05.893 [main] GenericScope - BeanFactory id=957ffef1-b5ce-3d92-a45d-9b55ba2fc46b
+[INFO ] ,, 2020-07-11 02:31:08.272 [main] NettyWebServer - Netty started on port(s): 8082
+[INFO ] ,, 2020-07-11 02:31:08.770 [main] CafeSvcApplication - Started CafeSvcApplication in 4.732 seconds (JVM running for 6.114)
+[INFO ] ,589e58a3847e764b,589e58a3847e764b 2020-07-11 02:31:09.955 [reactor-http-nio-2] CafeController - Cafe MicroService Start>>>>>>>>
+[INFO ] ,589e58a3847e764b,589e58a3847e764b 2020-07-11 02:31:09.959 [reactor-http-nio-2] CafeController - Host : [localhost:8082]
+[INFO ] ,589e58a3847e764b,589e58a3847e764b 2020-07-11 02:31:09.959 [reactor-http-nio-2] CafeController - Connection : [keep-alive]
+[INFO ] ,589e58a3847e764b,589e58a3847e764b 2020-07-11 02:31:09.960 [reactor-http-nio-2] CafeController - Cache-Control : [max-age=0]
+[INFO ] ,589e58a3847e764b,589e58a3847e764b 2020-07-11 02:31:09.960 [reactor-http-nio-2] CafeController - Upgrade-Insecure-Requests : [1]
+[INFO ] ,589e58a3847e764b,589e58a3847e764b 2020-07-11 02:31:09.960 [reactor-http-nio-2] CafeController - User-Agent : [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36]
+[INFO ] ,589e58a3847e764b,589e58a3847e764b 2020-07-11 02:31:09.960 [reactor-http-nio-2] CafeController - Accept : [text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9]
+[INFO ] ,589e58a3847e764b,589e58a3847e764b 2020-07-11 02:31:09.963 [reactor-http-nio-2] CafeController - Sec-Fetch-Site : [none]
+[INFO ] ,589e58a3847e764b,589e58a3847e764b 2020-07-11 02:31:09.964 [reactor-http-nio-2] CafeController - Sec-Fetch-Mode : [navigate]
+[INFO ] ,589e58a3847e764b,589e58a3847e764b 2020-07-11 02:31:09.964 [reactor-http-nio-2] CafeController - Sec-Fetch-User : [?1]
+[INFO ] ,589e58a3847e764b,589e58a3847e764b 2020-07-11 02:31:09.964 [reactor-http-nio-2] CafeController - Sec-Fetch-Dest : [document]
+[INFO ] ,589e58a3847e764b,589e58a3847e764b 2020-07-11 02:31:09.964 [reactor-http-nio-2] CafeController - Accept-Encoding : [gzip, deflate, br]
+[INFO ] ,589e58a3847e764b,589e58a3847e764b 2020-07-11 02:31:09.964 [reactor-http-nio-2] CafeController - Accept-Language : [ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7]
+[INFO ] ,589e58a3847e764b,589e58a3847e764b 2020-07-11 02:31:09.965 [reactor-http-nio-2] CafeController - Cafe MicroService End>>>>>>>>

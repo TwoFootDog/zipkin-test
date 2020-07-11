@@ -1,0 +1,13 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: cafe-svc
+  sleuth:
+    sampler:
+      probability: 1.0
+    enabled: true
+  zipkin:
+    base-url: http://3.34.178.19:9411/
+    enabled: true

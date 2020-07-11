@@ -1,0 +1,45 @@
+server:
+  port: 8080
+---
+spring:
+  profiles:
+    active: local
+  application:
+    name: gateway
+  sleuth:
+    sampler:
+      probability: 1.0
+  zipkin:
+    base-url: http://15.164.232.190:9411/
+  cloud:
+    gateway:
+      default-filters:
+        - name: GlobalFilter
+          args:
+            baseMessage: Spring Cloud Gateway GlobalFilter
+            preLogger: true
+            postLogger: true
+      routes:
+        - id: user-svc
+          uri: http://localhost:8081/
+          predicates:
+            - Path=/user/**
+          filters:
+            - name: UserFilter
+              args:
+                baseMessage: Spring Cloud Gateway UserFilter
+                preLogger: true
+                postLogger: true
+        - id: cafe-svc
+          uri: http://localhost:8082/
+          predicates:
+            - Path=/cafe/**
+          filters:
+            - name: CafeFilter
+              args:
+                baseMessage: Spring Cloud Gateway CafeFilter
+                preLogger: true
+                postLogger: true
+#logging:
+#  level:
+#    org.springframework: TRACE
